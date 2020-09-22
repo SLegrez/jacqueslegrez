@@ -1,0 +1,13 @@
+<div class="navbar">
+  <ul>
+    <li><%= link_to "Accueil", root_path %></li>
+    <li class="dropdown"><%= link_to "Tableaux", abstrait_path %>
+      <ul class="under">
+        <li><%= link_to "Abstraits", abstrait_path %></li>
+        <li><%= link_to "Figuratifs", figuratif_path %></li>
+        <li><%= link_to "Portraits", portrait_path %></li>
+      </ul>
+    </li>
+    <li><%= link_to "Contact", contact_path %></li>
+  </ul>
+</div>

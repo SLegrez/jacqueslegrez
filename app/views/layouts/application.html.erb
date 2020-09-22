@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jacqueslegrez</title>
+    <title>Jacques Legrez artiste peintre</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,11 +10,7 @@
   </head>
 
   <body>
-  <div class="navbar">
-    <%= link_to "Accueil", "#" %>
-    <%= link_to "Tableaux", "#" %>
-    <%= link_to "Contact", "#" %>
-  </div>
+    <%= render 'shared/navbar' %>
     <%= yield %>
   </body>
 </html>
