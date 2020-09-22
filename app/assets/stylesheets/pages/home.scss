@@ -14,10 +14,13 @@
   }
 }
 .container {
+  display: flex;
+  height: 25em;
   background-color: #DEB887;
   padding: 1em;
 }
 .description {
+  display: flex;
   margin: auto;
   width: 80%;
   text-align: center;
@@ -27,4 +30,8 @@
   p {
     text-align: justify;
   }
+}
+.infos {
+  align-items: center;
+  margin-left: 3em;
 }
