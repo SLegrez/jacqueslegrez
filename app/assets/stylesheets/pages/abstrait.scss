@@ -19,3 +19,44 @@
     max-height: 15em; 
   }
 }
+.img-transition {
+  transition: 0.4s !important;
+}
+.img-transition:hover {
+  opacity: 0.5;
+  z-index: 1;
+}
+.modal-content {
+  color: white;
+  background: none !important;
+}
+.modal-body img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.modal-text-align {
+  text-align: center;
+}
+.modal-backdrop {
+  opacity:0.8 !important;
+}
+.content-img {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.content-img div{
+  position: absolute;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.content-img:hover div{
+  visibility: visible;
+  opacity: 1; 
+}
