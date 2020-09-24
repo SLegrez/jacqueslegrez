@@ -1,0 +1,21 @@
+.container-abstrait {
+  background-color: black;
+  h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+  }
+}
+.container-abs {
+  width: 80%;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin: auto;
+  padding: 3em 0em 3em 0em;
+  img {
+    max-height: 15em; 
+  }
+}
