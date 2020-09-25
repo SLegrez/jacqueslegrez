@@ -1,4 +1,17 @@
 <% provide(:title, "Accueil") %>
+<div class="navbar-home fixed-top">
+  <ul>
+    <li><%= link_to "Accueil", root_path %></li>
+    <li class="dropdown"><%= link_to "Œuvres", abstrait_path %>
+      <ul class="under">
+        <li><%= link_to "Abstraits", abstrait_path %></li>
+        <li><%= link_to "Figuratifs", figuratif_path %></li>
+        <li><%= link_to "Portraits", portrait_path %></li>
+      </ul>
+    </li>
+    <li><%= link_to "Contact", contact_path %></li>
+  </ul>
+</div>
 <% url = image_path("114_En_tout_état_de_cause_81x65.jpg") %>
 <div class="bg-home" style="background-image: url(<%= url %>);">
   <h1>Jacques Legrez</h1>
@@ -10,11 +23,12 @@
     </div>
     <div class="infos">
       <h2>Biographie</h2> 
-      <p>Jacques Legrez vit et travaille en Bourgogne. Son travail convoque
+      <br>
+      <p>Jacques Legrez vit et travaille en Bourgogne. Son travail ???convoque???
       trois thèmes majeurs de la peinture, l'abstraction, le paysage, le portrait. Après des
       études à la faculté de droit, il étudie la technique des maîtres anciens, en particulier
-      les peintures du Quattrocento et les maîtres du !!!pence!!! du XVIIe siècle, puis s'engage
-      sur la voie inhérente à tout créateur, créer son propre !!!monate!!! pour oublier le
+      les peintures du Quattrocento et les maîtres du ???pence??? du XVIIe siècle, puis s'engage
+      sur la voie inhérente à tout créateur, créer son propre ???monate??? pour oublier le
       monde.</p>
     </div>
   </div>
