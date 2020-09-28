@@ -8,6 +8,6 @@ class PagesController < ApplicationController
   def portrait
   end
 
-  def contact
+  def lart_en_question
   end
 end
