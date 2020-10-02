@@ -22,7 +22,9 @@
   margin: auto;
   padding: 3em 0em 3em 0em;
   img {
-    max-height: 15em; 
+    max-height: 15em;
+    height: 100%; 
+    width: 100%;
   }
 }
 .img-transition {
@@ -51,6 +53,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .content-img div{
   position: absolute;

@@ -3,14 +3,19 @@
   height: 100vh;
   background-size: cover;
   background-position: center 74%;
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
+  justify-items: center;
   h1 {
     margin: 0px;
     color: white;
     font-size: 5em;
     text-shadow: 1px 1px 2px black;
+  }
+  h1 > p {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
   }
 }
 .container-description {

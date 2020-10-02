@@ -1,20 +1,22 @@
 <% provide(:title, "Accueil") %>
-<div class="navbar-home fixed-top">
-  <ul>
-    <li><%= link_to "Accueil", root_path %></li>
-    <li class="dropdown middle"><%= link_to "Œuvres", abstrait_path %>
-      <ul class="under">
-        <li><%= link_to "Abstraction", abstrait_path %></li>
-        <li><%= link_to "La France que j'aime", figuratif_path %></li>
-        <li><%= link_to "Portraits", portrait_path %></li>
-      </ul>
-    </li>
-    <li><%= link_to "L'art en question", lart_en_question_path %></li>
-  </ul>
-</div>
 <% url = image_path("67_Coalition_81cmx65cm.JPG") %>
 <div class="bg-home" style="background-image: url(<%= url %>);">
-  <h1>Jacques Legrez</h1>
+  <div class="navbar-home">
+    <ul>
+      <li><%= link_to "Accueil", root_path %></li>
+      <li class="dropdown middle"><%= link_to "Œuvres", abstrait_path %>
+        <ul class="under">
+          <li><%= link_to "Abstraction", abstrait_path %></li>
+          <li><%= link_to "La France que j'aime", figuratif_path %></li>
+          <li><%= link_to "Portraits", portrait_path %></li>
+        </ul>
+      </li>
+      <li><%= link_to "L'art en question", lart_en_question_path %></li>
+      <li class="right"><%= link_to "Contact", lart_en_question_path %></li>
+    </ul>
+  </div>
+  <h1>Jacques Legrez
+  <p><br>« Regarder pour voir »</p></h1>
 </div>
 <div class="container-description">
   <div class="description">
