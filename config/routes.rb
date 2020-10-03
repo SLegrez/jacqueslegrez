@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'abstrait', to: 'pages#abstrait'
   get 'figuratif', to: 'pages#figuratif'
   get 'portrait', to: 'pages#portrait'
+  get 'marines', to: 'pages#marines'
   get 'lart_en_question', to: 'pages#lart_en_question'
 end
