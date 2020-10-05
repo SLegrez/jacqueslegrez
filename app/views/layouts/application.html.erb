@@ -18,10 +18,17 @@
     <%= yield %>
   </body>
   <style>
-    /* <% unless current_page?(root_path) %>
+    <% if current_page?(lart_en_question_path) %>
       body {
-        padding-top: 4em; 
+        background-color: brown; 
       }
-    <% end %> */
+      .middle {
+        border-left: 3px solid brown;
+        border-right: 3px solid brown;
+      }
+      .right {
+        border-left: 3px solid brown;
+      }
+    <% end %>
   </style>
 </html>

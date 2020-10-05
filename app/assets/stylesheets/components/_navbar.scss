@@ -26,7 +26,6 @@
   }
   ul li {
     float: left;
-    width: 15em;
     text-align: center;
     position: relative;
   }
@@ -92,9 +91,8 @@
   }
   ul li {
     float: left;
-    width: 15em;
-    text-align: center;
     position: relative;
+    text-align: center;
   }
   ul:after {
     content: "";
@@ -127,6 +125,11 @@
     background-color: burlywood;
     border-radius: 4px;
   }
+}
+.flex-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .navbar-home-white {
   background-color:burlywood;
