@@ -11,6 +11,7 @@
     color: white;
     font-size: 5em;
     text-shadow: 1px 1px 2px black;
+    text-align: center;
   }
   h1 > p {
     text-align: center;
@@ -27,6 +28,7 @@
 }
 .description {
   display: flex;
+  align-items: center;
   margin: auto;
   width: 80%;
   text-align: center;
@@ -43,8 +45,17 @@
   align-items: center;
   margin-left: 3em;
 }
+
+// iphone 6 & 7 
+@media (min-width: 100px) and (max-width: 400px) {
+  .navbar-home ul li {
+    width: 5em;
+    height: 4em;
+  }
+}
+
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 400px) and (max-width: 575px) {
   .navbar-home ul li {
     width: 6em;
     height: 4em;
