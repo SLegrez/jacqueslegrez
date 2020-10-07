@@ -75,6 +75,21 @@
     width: 6em;
     height: 4em;
   }
+  .container-description {
+    padding-top: 2em;
+    height: 100%;
+  }
+  .description {
+    display: table;
+  }
+  .infos {
+    margin-left: 0;
+    margin-top: 2em;
+  }
+  .avatar {
+    height: 15em;
+    background-position: center;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
