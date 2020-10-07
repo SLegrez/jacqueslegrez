@@ -29,6 +29,9 @@ body {
 }
 // iphone 6 & 7 
 @media (min-width: 100px) and (max-width: 400px) {
+  .container-abs {
+    grid-template-columns: 1fr;
+  }
   .navbar-top ul li {
     width: 5em;
     height: 4em;
