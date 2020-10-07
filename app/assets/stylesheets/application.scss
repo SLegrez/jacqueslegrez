@@ -36,7 +36,7 @@ body {
 }
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 400px) and (max-width: 575px) {
   .container-abs {
     grid-template-columns: 1fr;
   }
