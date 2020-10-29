@@ -1,259 +1,475 @@
 <% provide(:title, "Portraits") %>
 <div class="container-1">
-  <h1>Portraits</h1>
-  <div class="container-portrait">
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal">
-      <div class="content-img">
-        <img src="../assets/76_Jeune_fille.JPG" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Jeune fille</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/76_Jeune_fille.JPG" alt="tableau abstrait">
+  <h2>Portraits</h2>
+  <%# Beginning of the carousel %>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <%# Beginning of the 1st grid %>
+        <div class="container-portrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal">
+            <div class="content-img">
+              <img src="../assets/76_Jeune_fille.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Jeune fille</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/76_Jeune_fille.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Jeune fille</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Jeune fille</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal2">
-      <div class="content-img">
-        <img src="../assets/80_Guillaume_Durand_61cmx46cm.JPG" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Guillaume Durand</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/80_Guillaume_Durand_61cmx46cm.JPG" alt="tableau abstrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal2">
+            <div class="content-img">
+              <img src="../assets/80_Guillaume_Durand_61cmx46cm.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Guillaume Durand</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/80_Guillaume_Durand_61cmx46cm.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Guillaume Durand</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Guillaume Durand</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal3">
-      <div class="content-img">
-        <img src="../assets/82_Thierry_Ardisson_61cmx46cm.JPG" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Thierry Ardisson</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/82_Thierry_Ardisson_61cmx46cm.JPG" alt="tableau abstrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal3">
+            <div class="content-img">
+              <img src="../assets/82_Thierry_Ardisson_61cmx46cm.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Thierry Ardisson</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/82_Thierry_Ardisson_61cmx46cm.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Thierry Ardisson</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Thierry Ardisson</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal4">
-      <div class="content-img">
-        <img src="../assets/77_Solitude_61cmx50cm.JPG" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Solitude</h4>
-          <p>61cm x 50cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/77_Solitude_61cmx50cm.JPG" alt="tableau abstrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal4">
+            <div class="content-img">
+              <img src="../assets/77_Solitude_61cmx50cm.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Solitude</h4>
+                <p>61cm x 50cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/77_Solitude_61cmx50cm.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Solitude</h5>
+                  <p class="modal-text-align">F61cm x 50cm/p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Solitude</h5>
-            <p class="modal-text-align">F61cm x 50cm/p>
-        </div>
-      </div>
-    </div>
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal5">
-      <div class="content-img">
-        <img src="../assets/78_Michel_Drucker_75cmx35cm.JPG" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Michel Drucker</h4>
-          <p>75cm x 35cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/78_Michel_Drucker_75cmx35cm.JPG" alt="tableau abstrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal5">
+            <div class="content-img">
+              <img src="../assets/78_Michel_Drucker_75cmx35cm.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Michel Drucker</h4>
+                <p>75cm x 35cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/78_Michel_Drucker_75cmx35cm.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Michel Drucker</h5>
+                  <p class="modal-text-align">75cm x35cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Michel Drucker</h5>
-            <p class="modal-text-align">75cm x35cm</p>
-        </div>
-      </div>
-    </div>
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal6">
-      <div class="content-img">
-        <img src="../assets/Laurent_ruquier.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Laurent Ruquier</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/Laurent_ruquier.jpg" alt="tableau abstrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal6">
+            <div class="content-img">
+              <img src="../assets/Laurent_ruquier.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Laurent Ruquier</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Laurent_ruquier.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Laurent Ruquier</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Laurent Ruquier</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
-      
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal7">
-      <div class="content-img">
-        <img src="../assets/jean_marie_messier.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Jean Marie Messier</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/jean_marie_messier.jpg" alt="tableau abstrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal7">
+            <div class="content-img">
+              <img src="../assets/jean_marie_messier.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Jean Marie Messier</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/jean_marie_messier.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Jean Marie Messier</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Jean Marie Messier</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
 
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal8">
-      <div class="content-img">
-        <img src="../assets/Anna_grigorevna_dostoïevski.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Anna Grigorievna Dostoïevski</h4>
-          <p>61cm x 50cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/Anna_grigorevna_dostoïevski.jpg" alt="tableau abstrait">
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal8">
+            <div class="content-img">
+              <img src="../assets/Arnaud_Lagardere_60cmx46cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Arnaud Lagardère</h4>
+                <p>61cm x 50cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Arnaud_Lagardere_60cmx46cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Arnaud Lagardère</h5>
+                  <p class="modal-text-align">61cm x 50cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Anna Grigorievna Dostoïevski</h5>
-            <p class="modal-text-align">61cm x 50cm</p>
-        </div>
-      </div>
-    </div>
 
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal9">
-      <div class="content-img">
-        <img src="../assets/Vieillard.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Vieillard</h4>
-          <p>61cm x 50cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/Vieillard.jpg" alt="tableau abstrait">
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal9">
+            <div class="content-img">
+              <img src="../assets/Vieillard.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Vieillard</h4>
+                <p>61cm x 50cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Vieillard.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Vieillard</h5>
+                  <p class="modal-text-align">61cm x 50cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Vieillard</h5>
-            <p class="modal-text-align">61cm x 50cm</p>
-        </div>
-      </div>
-    </div>
 
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal10">
-      <div class="content-img">
-        <img src="../assets/Jeune_femme.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Jeune femme</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/Jeune_femme.jpg" alt="tableau abstrait">
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal10">
+            <div class="content-img">
+              <img src="../assets/Jeune_femme.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Jeune femme</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Jeune_femme.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Jeune femme</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Jeune femme</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
 
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal11">
-      <div class="content-img">
-        <img src="../assets/Bernard_arnault.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Bernard Arnault</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/Bernard_arnault.jpg" alt="tableau abstrait">
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal11">
+            <div class="content-img">
+              <img src="../assets/Jacques_Attali_60cmx46cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Jacques Attali</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Jacques_Attali_60cmx46cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Jacques Attali</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Bernard Arnault</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
-        </div>
-      </div>
-    </div>
 
-    <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal12">
-      <div class="content-img">
-        <img src="../assets/femme_africaine.jpg" class="img-transition" alt="tableau abstrait">
-        <div>
-          <h4>Femme africaine</h4>
-          <p>61cm x 46cm</p>
-        </div>
-      </div>
-    </button>
-    <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body modal-text-align">
-            <img src="../assets/femme_africaine.jpg" alt="tableau abstrait">
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal12">
+            <div class="content-img">
+              <img src="../assets/femme_africaine.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Femme africaine</h4>
+                <p>61cm x 46cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/femme_africaine.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Femme africaine</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
           </div>
-            <h5 class="modal-text-align" id="exampleModalLabel">Femme africaine</h5>
-            <p class="modal-text-align">61cm x 46cm</p>
+        
         </div>
+      <%# End of the 1st grid %>
+      </div>
+      <div class="carousel-item">
+      <%# Beginning of the 2nd grid %>
+        <div class="container-portrait">
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal13">
+            <div class="content-img">
+              <img src="../assets/81_Attendre_46cmx38cm.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Attendre</h4>
+                <p>46cm x 38cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/81_Attendre_46cmx38cm.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Attendre</h5>
+                  <p class="modal-text-align">46cm x 38cm</p>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal14">
+            <div class="content-img">
+              <img src="../assets/79_Seule_61cmx46cm.JPG" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Seule</h4>
+                <p>46cm x 36cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/79_Seule_61cmx46cm.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Seule</h5>
+                  <p class="modal-text-align">46cm x 36cm</p>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal15">
+            <div class="content-img">
+              <img src="../assets/Portrait_1.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 1</h4>
+                <p>46cm x 36cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_1.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 1</h5>
+                  <p class="modal-text-align">46cm x 36cm</p>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal16">
+            <div class="content-img">
+              <img src="../assets/Portrait_2_46cmx36cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 2</h4>
+                <p>61cm x 50cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_2_46cmx36cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 2</h5>
+                  <p class="modal-text-align">F61cm x 50cm/p>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal17">
+            <div class="content-img">
+              <img src="../assets/Portrait_3_46cmx36cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 3</h4>
+                <p>75cm x 35cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_3_46cmx36cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 3</h5>
+                  <p class="modal-text-align">75cm x35cm</p>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal18">
+            <div class="content-img">
+              <img src="../assets/Portrait_4_46cmx36cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 4</h4>
+                <p>46cm x 36cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_4_46cmx36cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 4</h5>
+                  <p class="modal-text-align">46cm x 36cm</p>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal19">
+            <div class="content-img">
+              <img src="../assets/Portrait_5_46cmx36cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 5</h4>
+                <p>46cm x 36cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_5_46cmx36cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 5</h5>
+                  <p class="modal-text-align">46cm x 36cm</p>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal20">
+            <div class="content-img">
+              <img src="../assets/Portrait_6_46cmx36cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 6</h4>
+                <p>46cm x 36cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_6_46cmx36cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 6</h5>
+                  <p class="modal-text-align">46cm x 36cm</p>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal21">
+            <div class="content-img">
+              <img src="../assets/Portrait_7_46cmx36cm.jpg" class="img-transition" alt="tableau abstrait">
+              <div>
+                <h4>Portrait 7</h4>
+                <p>46cm x 36cm</p>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="exampleModal21" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/Portrait_7_46cmx36cm.jpg" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Portrait 7</h5>
+                  <p class="modal-text-align">46cm x 36cm</p>
+              </div>
+            </div>
+          </div>
+
+      <%# End of the 2nd grid %>
       </div>
     </div>
-  
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
   </div>
 </div>

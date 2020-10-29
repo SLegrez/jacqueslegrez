@@ -1,6 +1,7 @@
 <% provide(:title, "Accueil") %>
 <% url = image_path("background-home-picture.jpg") %>
 <div class="bg-home" style="background-image: url(<%= url %>);">
+  <%# Navbar %>
   <div class="navbar-home">
     <ul>
       <li><%= link_to "Accueil", root_path %></li>
@@ -13,9 +14,10 @@
         </ul>
       </li>
       <li class="flex-align-center"><%= link_to "L'art en question", lart_en_question_path %></li>
-      <li class="right-home"><%= link_to "Contact", lart_en_question_path %></li>
+      <li class="right-home"><%= link_to "Contact", contact_path %></li>
     </ul>
   </div>
+  <%# Navbar %>
   <h1>Jacques Legrez
   <p><br><span id="banner-typed-text"></span></p></h1>
 </div>
@@ -28,7 +30,7 @@
       <h2>L'artiste</h2>
       <br>
       <p>J.Legrez vit et travaille en Bourgogne. Sa peinture convoque
-      trois thèmes essentiels de l'art pictural, l'abstraction, le paysage, le portrait. Après
+      trois thèmes essentiels de l'art pictural, l'abstraction contemporaine, le paysage, le portrait. Après
       une formation classique, il étudie la technique des maîtres anciens, plus particulièrement
       les peintres du Quattrocento et les maîtres du genre du XVII ème. Son travail s'inscrit
       dans la lignée inhérente à tout créateur, oublier le monde pour créer son propre monde. Ses

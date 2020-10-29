@@ -20,12 +20,19 @@
 body {
   margin: 0px;
   background-color: black;
-  h1 {
+  h1, h2 {
     font-family: 'Caveat', sans-serif;
   }
-  p, a, h2 {
+  p, a {
     font-family: 'Karla', sans-serif;
   }
+}
+h2 {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 // iphone 6 & 7 
 @media (min-width: 100px) and (max-width: 400px) {

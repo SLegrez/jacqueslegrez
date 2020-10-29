@@ -18,9 +18,12 @@
     <%= yield %>
   </body>
   <style>
-    <% if current_page?(lart_en_question_path) %>
+    <% if current_page?(lart_en_question_path) | current_page?(contact_path) %>
       body {
         background-color: brown; 
+      }
+      h2 {
+        color: wheat;
       }
       .middle {
         border-left: 3px solid brown;

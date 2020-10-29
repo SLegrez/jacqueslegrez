@@ -1,11 +1,5 @@
 .container-1 {
   background-color: black;
-  h1{
-    color: white;
-    text-align: center;
-    margin: auto;
-    padding-top: 1em;
-  }
   p {
     color: white;
     text-align: center;
@@ -20,6 +14,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   margin: auto;
+  margin-bottom: 1em;
   padding: 3em 0em 3em 0em;
   img {
     max-height: 15em;
