@@ -34,6 +34,11 @@ h2 {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
 // iphone 6 & 7 
 @media (min-width: 100px) and (max-width: 400px) {
   .container-abs {

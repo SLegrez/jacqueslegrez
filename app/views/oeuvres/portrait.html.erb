@@ -1,8 +1,8 @@
 <% provide(:title, "Portraits") %>
 <div class="container-1">
-  <h2>Portraits</h2>
+  <h2>Portrait</h2>
   <%# Beginning of the carousel %>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -21,17 +21,7 @@
               </div>
             </div>
           </button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-body modal-text-align">
-                  <img src="../assets/76_Jeune_fille.JPG" alt="tableau abstrait">
-                </div>
-                  <h5 class="modal-text-align" id="exampleModalLabel">Jeune fille</h5>
-                  <p class="modal-text-align">61cm x 46cm</p>
-              </div>
-            </div>
-          </div>
+
             
           <button type="button" class="btn shadow-none" style="padding: 0 !important" data-toggle="modal" data-target="#exampleModal2">
             <div class="content-img">
@@ -472,4 +462,16 @@
     <span class="sr-only">Next</span>
   </a>
   </div>
+  
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body modal-text-align">
+                  <img src="../assets/76_Jeune_fille.JPG" alt="tableau abstrait">
+                </div>
+                  <h5 class="modal-text-align" id="exampleModalLabel">Jeune fille</h5>
+                  <p class="modal-text-align">61cm x 46cm</p>
+              </div>
+            </div>
+          </div>
 </div>
