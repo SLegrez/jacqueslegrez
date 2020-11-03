@@ -12,11 +12,13 @@
   width: 11em;
   float: left;
   margin-right: 1em;
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .img-float-right {
   width: 9em;
   float: right;
   margin-left: 1em;
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
