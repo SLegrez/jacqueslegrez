@@ -1,9 +1,9 @@
-<% provide(:title, "Marine") %>
+<% provide(:title, @oeuvre[:title]) %>
 
 <div class="container-1">
   <h2>Marine</h2>
   <div class="container-abs">
-    <% @marine_array.each_with_index do |tableau, index| %>
+    <% @oeuvre[:data].each_with_index do |tableau, index| %>
       <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
         <div class="content-img">
           <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
@@ -20,7 +20,7 @@
         <div class="modal-content">
           <div id="carousel-images" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <% @marine_array.each_with_index do |tableau, index| %>
+              <% @oeuvre[:data].each_with_index do |tableau, index| %>
                 <div class="carousel-item<%= index === 0 ? ' active' : '' %>">
                   <img class="d-block w-100" src="<%= tableau[:img] %>" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
