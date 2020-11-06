@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   root to: "pages#home"
   get 'lart-en-question', to: 'pages#lart_en_question'
   get 'contact', to: 'pages#contact'
-  get 'oeuvres/:oeuvre', to: 'oeuvres#index'
+  get 'oeuvres/:id', to: 'oeuvres#index', as: 'oeuvres_collection_index'
 end
