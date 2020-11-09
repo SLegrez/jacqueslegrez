@@ -16,10 +16,12 @@ import 'bootstrap';
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 import { loadDynamicBannerText } from '../components/typed';
+// import { intelligentModal } from '../components/intelModal';
 import $ from 'jquery';
 
 document.addEventListener('turbolinks:load', () => {
   loadDynamicBannerText();
+  // intelligentModal();
 });
 
 window.onload = function (e) {
