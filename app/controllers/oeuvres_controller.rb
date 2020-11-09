@@ -8,12 +8,10 @@ class OeuvresController < ApplicationController
             img: '../assets/57_Souvenir_dune_amie_tres_lointaine_81cmx65cm.JPG',
             title: "Souvenir d'une amie très lointaine",
             size: '81cm x 65cm',
-            index: 1
           }, {
             img: '../assets/48_Varadeiro_81cmx65cm.JPG',
             title: 'Varadeiro',
             size: '81cm x 65cm',
-            index: 2
           }, {
             img: '../assets/108_Dernier_jour_a_Epidaure_81cmx65cm.JPG',
             title: 'Dernier jour à Épidaure',
@@ -196,10 +194,119 @@ class OeuvresController < ApplicationController
       figuratif: {
         title: "La France que j'aime",
         data: [
-          {
+        {
+          img: '../assets/4_Tonnerre_Le_petit_Logis_1mx1m.JPG',
+          title: "Tonnerre - Le petit logis",
+          size: '1m x 1m',
+        }, {
+          img: '../assets/2_Tonnerre_Eglise_Saint_Pierre_Eglise_Saint_Jean_1mx1m.JPG',
+          title: 'Tonnerre - Église Saint Pierre, église Saint Jean',
+          size: '1m x 1m',
+        }, {
+          img: '../assets/Joigny_pont_1.jpg',
+          title: 'Joigny',
+          size: '1m x 1m'
+        }, {
+          img: '../assets/10_Guillon_Village_de_Bourgogne_1mx1m.JPG',
+          title: 'Guillon - Village de Bourgogne',
+          size: '1m x 1m'
+        }, {
+          img: "../assets/9_Tonnerre_1mx1m.JPG",
+          title: "Tonnerre",
+          size: '1m x 1m'
+        }, {
+          img: "../assets/11_Savigny_en_Terre_Plaine_1mx1m.JPG",
+          title: "Savigny en terre plaine",
+          size: '1m x 1m'
+        }, {
+          img: '../assets/118_Village_de_France_1mx1m.JPG',
+          title: 'Époisses',
+          size: '1m x 1m'
+        }, {
+          img: '../assets/22_Avallon_La_Maison_des_Sires_1mx1m.JPG',
+          title: 'Avallon - La maison des Sires',
+          size: '1m x 1m'
+        }, {
+          img: '../assets/12_Paysage_81cmx65cm.JPG',
+          title: 'Paysage',
+          size: '1m x 76cm'
+        }, {
+          img: '../assets/123_Bourges_Derriere_la_cathedrale_81cmx65xm.JPG',
+          title: 'Bourges - Derrière la cathédrale',
+          size: '81cm x 59cm'
+        }, {
+          img: '../assets/124_Montlucon_81cmx65cm.JPG',
+          title: 'Montluçon',
+          size: '81cm x 65cm'
+        }, {
+          img: '../assets/5_Tonnerre_Eglise_Saint_Pierre_81cmx65cm.JPG',
+          title: 'Tonnerre - Église Saint Pierre',
+          size: '81cm x 65cm'
+        }, {
+          img: '../assets/6_Tonnerre_Ete_1mx73cm.JPG',
+          title: 'Tonnerre - Éte',
+          size: '1m x 76cm'
+        }, {
+          img: '../assets/7_Tonnerre_Lumiere_dautomne_1mx73cm.JPG',
+          title: "Tonnerre - Lumière d'automne",
+          size: '1m x 76cm'
+        }, {
+          img: '../assets/8_Bourges_La_Cathedrale_1mx73cm.JPG',
+          title: 'Bourges - La cathédrale',
+          size:'1m x 76cm'
+        }, {
+          img: '../assets/Ancy_le_franc_81cmx65cm.jpg',
+          title: 'Ancy le Franc',
+          size: '1m x 76cm'
+        },
+        
+        # ---------- End of the 1st 4x4 grid ---------- #
 
-          }
-        ]
+        {
+          img: '../assets/Joigny_2_81cmx65cm.jpg',
+          title: 'Joigny 2',
+          size: '81cm x 65cm'
+        }, {
+          img: '../assets/Joigny_3_1mx1m.jpg',
+          title: 'Joigny 3',
+          size: '1m x 1m'
+        }, {
+          img: '../assets/Joigny_4_81cmx65cm.jpg',
+          title: 'Joigny 4',
+          size:'81cm x 65cm'
+        }, {
+          img: '../assets/Joigny_60cmx45cm.jpg',
+          title: 'Joigny',
+          size: '60cm x 45cm'
+        }, {
+          img: '../assets/13_Beine_Village_de_Bourgogne_2mx80cm.JPG',
+          title: 'Village de Bourgogne',
+          size: '2m x 80cm'
+        }, {
+          img: '../assets/16_Celibataires_a_Tonnerrre_1m20x60cm.JPG',
+          title: 'Célibataires à Tonnerre',
+          size: '1m20 x 60cm'
+        },
+      
+        # ---------- End of the 2nd 4x4 grid ---------- #
+
+        {
+          img: '../assets/Auxerre_abbatiale_Saint_Germain.jpg',
+          title: 'Auxerre - Abbatiale Saint Germain',
+          size: '1m50 x 50cm'
+        }, {
+          img: '../assets/14_Bourges_La_maison_de_Jacques_Coeur_1m50x50cm.JPG',
+          title: 'Bourges - La maison de Jacques Cœur',
+          size: '1m50 x 50cm'
+        }, {
+          img: '../assets/18_Bourges_Lumiere_du_soir_1m50x50cm.JPG',
+          title: 'Bourges - Lumière du soir',
+          size:'1m50 x 50cm'
+        }, {
+          img: '../assets/15_Tonnerre_Vue_sur_leglise_Saint_Pierre_1m50x50cm.JPG',
+          title: "Tonnerre - Vue sur l'église",
+          size: '1m50 x 50cm'
+        }]
       },
       marine: {
         title: "Marine",

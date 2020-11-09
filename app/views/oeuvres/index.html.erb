@@ -31,8 +31,12 @@
       </div>
 
       <% unless current_page?(oeuvres_collection_index_path('marine')) %>
-        <div class="carousel-item">        
-          <div class="container-portrait">
+        <div class="carousel-item">
+          <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
+            <div class="container-abs">
+          <% else %>
+            <div class="container-portrait">
+          <% end %>
             <% @collection[:data].each_with_index do |tableau, index| %>
               <% case index %>
               <% when 16..27 %>
