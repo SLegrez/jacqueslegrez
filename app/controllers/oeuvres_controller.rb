@@ -3,15 +3,17 @@ class OeuvresController < ApplicationController
     @oeuvres = {
       abstraction: {
         title: "Abstraction",
-        data: [[
+        data: [
           {
             img: '../assets/57_Souvenir_dune_amie_tres_lointaine_81cmx65cm.JPG',
             title: "Souvenir d'une amie très lointaine",
-            size: '81cm x 65cm'
+            size: '81cm x 65cm',
+            index: 1
           }, {
             img: '../assets/48_Varadeiro_81cmx65cm.JPG',
             title: 'Varadeiro',
-            size: '81cm x 65cm'
+            size: '81cm x 65cm',
+            index: 2
           }, {
             img: '../assets/108_Dernier_jour_a_Epidaure_81cmx65cm.JPG',
             title: 'Dernier jour à Épidaure',
@@ -72,7 +74,6 @@ class OeuvresController < ApplicationController
           
           # ---------- End of the 1st 4x4 grid ---------- #
 
-        ], [
           {
             img: '../assets/115_Toutes_choses_confondues_1mx1m.JPG',
             title: 'Toutes choses confondues',
@@ -124,7 +125,7 @@ class OeuvresController < ApplicationController
           },
           
           # ---------- End of the 2nd 3x3 grid ---------- #
-        ], [
+
           {
             img: '../assets/karthoum.bazar@.com.jpg',
             title: 'karthoum.bazar@.com',
@@ -190,7 +191,15 @@ class OeuvresController < ApplicationController
             title: 'Géométrie variable',
             size: '81cm x 65cm'
           }
-        ]]
+        ]
+      },
+      figuratif: {
+        title: "La France que j'aime",
+        data: [
+          {
+
+          }
+        ]
       },
       marine: {
         title: "Marine",
