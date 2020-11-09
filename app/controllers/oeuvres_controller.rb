@@ -3,7 +3,7 @@ class OeuvresController < ApplicationController
     @oeuvres = {
       abstraction: {
         title: "Abstraction",
-        data: [
+        data: [[
           {
             img: '../assets/57_Souvenir_dune_amie_tres_lointaine_81cmx65cm.JPG',
             title: "Souvenir d'une amie très lointaine",
@@ -72,7 +72,7 @@ class OeuvresController < ApplicationController
           
           # ---------- End of the 1st 4x4 grid ---------- #
 
-        ], data1: [
+        ], [
           {
             img: '../assets/115_Toutes_choses_confondues_1mx1m.JPG',
             title: 'Toutes choses confondues',
@@ -124,7 +124,7 @@ class OeuvresController < ApplicationController
           },
           
           # ---------- End of the 2nd 3x3 grid ---------- #
-        ], data2: [
+        ], [
           {
             img: '../assets/karthoum.bazar@.com.jpg',
             title: 'karthoum.bazar@.com',
@@ -190,7 +190,7 @@ class OeuvresController < ApplicationController
             title: 'Géométrie variable',
             size: '81cm x 65cm'
           }
-        ]
+        ]]
       },
       marine: {
         title: "Marine",

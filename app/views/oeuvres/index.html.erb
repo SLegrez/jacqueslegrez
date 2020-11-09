@@ -7,7 +7,7 @@
 
       <div class="carousel-item active">
         <div class="container-abs">
-          <% @collection[:data].each_with_index do |tableau, index| %>
+          <% @collection[:data][0].each_with_index do |tableau, index| %>
             <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
               <div class="content-img">
                 <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
@@ -23,7 +23,7 @@
 
       <div class="carousel-item">        
         <div class="container-portrait">
-          <% @collection[:data1].each_with_index do |tableau, index| %>
+          <% @collection[:data][1].each_with_index do |tableau, index| %>
             <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
               <div class="content-img">
                 <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
@@ -39,7 +39,7 @@
 
       <div class="carousel-item">
         <div class="container-abs">
-          <% @collection[:data2].each_with_index do |tableau, index| %>
+          <% @collection[:data][2].each_with_index do |tableau, index| %>
             <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
               <div class="content-img">
                 <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
@@ -70,7 +70,7 @@
       <div class="modal-content">
         <div id="carousel-images" class="carousel slide" data-interval="false" data-ride="carousel">
           <div class="carousel-inner">
-            <% @collection[:data].each_with_index do |tableau, index| %>
+            <% @collection[:data][0].each_with_index do |tableau, index| %>
               <div class="carousel-item<%= index == 0 ? ' active' : '' %>">
                 <div class="modal-body modal-text-align">
                   <img class="d-block w-100" src="<%= tableau[:img] %>" alt="Third slide">
