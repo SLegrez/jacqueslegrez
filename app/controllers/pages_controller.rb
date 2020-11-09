@@ -4,7 +4,4 @@ class PagesController < ApplicationController
 
   def lart_en_question
   end
-
-  def contact
-  end
 end

@@ -1,12 +1,12 @@
 <div class="navbar-top">
   <ul>
     <li><%= link_to "Accueil", root_path %></li>
-    <li class="dropdown middle"><%= link_to "Œuvres", oeuvres_abstraction_path %>
+    <li class="dropdown middle"><%= link_to "Œuvres", oeuvres_collection_index_path('abstraction') %>
       <ul class="under">
-        <li><%= link_to "Abstraction", oeuvres_abstraction_path %></li>
-        <li><%= link_to "La France que j'aime", oeuvres_la_france_que_jaime_path %></li>
-        <li><%= link_to "Marine", oeuvres_marine_path %></li>
-        <li><%= link_to "Portrait", oeuvres_portrait_path %></li>
+        <li><%= link_to "Abstraction", oeuvres_collection_index_path('abstraction') %></li>
+        <li><%= link_to "La France que j'aime", '#' %></li>
+        <li><%= link_to "Marine", oeuvres_collection_index_path('marine') %></li>
+        <li><%= link_to "Portrait", '#' %></li>
       </ul>
     </li>
     <li class="flex-align-center"><%= link_to "L'art en question", lart_en_question_path %></li>

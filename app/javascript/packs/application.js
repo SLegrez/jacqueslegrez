@@ -16,7 +16,17 @@ import 'bootstrap';
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 import { loadDynamicBannerText } from '../components/typed';
+import $ from 'jquery';
 
 document.addEventListener('turbolinks:load', () => {
   loadDynamicBannerText();
 });
+
+window.onload = function (e) {
+  $('.btn-image').on('click', function() {
+    var index = $(this).data('index');
+
+    $('#carousel-images').carousel(index);
+    $('#modal-carousel').modal('show');
+  })
+}
