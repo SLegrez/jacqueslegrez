@@ -7,13 +7,19 @@
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <% unless current_page?(oeuvres_collection_index_path('portrait')) %>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <% end %>
       </ol>
     <div class="carousel-inner">
 
       <div class="carousel-item active">
   <% end %>
-        <div class="container-abs">
+        <% if current_page?(oeuvres_collection_index_path('portrait')) %>
+          <div class="container-portrait">
+        <% else %>
+          <div class="container-abs">
+        <% end %>
           <% @collection[:data].each_with_index do |tableau, index| %>
             <% if index < 16 %>
               <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">

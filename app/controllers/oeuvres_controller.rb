@@ -194,119 +194,120 @@ class OeuvresController < ApplicationController
       figuratif: {
         title: "La France que j'aime",
         data: [
-        {
-          img: '../assets/4_Tonnerre_Le_petit_Logis_1mx1m.JPG',
-          title: "Tonnerre - Le petit logis",
-          size: '1m x 1m',
-        }, {
-          img: '../assets/2_Tonnerre_Eglise_Saint_Pierre_Eglise_Saint_Jean_1mx1m.JPG',
-          title: 'Tonnerre - Église Saint Pierre, église Saint Jean',
-          size: '1m x 1m',
-        }, {
-          img: '../assets/Joigny_pont_1.jpg',
-          title: 'Joigny',
-          size: '1m x 1m'
-        }, {
-          img: '../assets/10_Guillon_Village_de_Bourgogne_1mx1m.JPG',
-          title: 'Guillon - Village de Bourgogne',
-          size: '1m x 1m'
-        }, {
-          img: "../assets/9_Tonnerre_1mx1m.JPG",
-          title: "Tonnerre",
-          size: '1m x 1m'
-        }, {
-          img: "../assets/11_Savigny_en_Terre_Plaine_1mx1m.JPG",
-          title: "Savigny en terre plaine",
-          size: '1m x 1m'
-        }, {
-          img: '../assets/118_Village_de_France_1mx1m.JPG',
-          title: 'Époisses',
-          size: '1m x 1m'
-        }, {
-          img: '../assets/22_Avallon_La_Maison_des_Sires_1mx1m.JPG',
-          title: 'Avallon - La maison des Sires',
-          size: '1m x 1m'
-        }, {
-          img: '../assets/12_Paysage_81cmx65cm.JPG',
-          title: 'Paysage',
-          size: '1m x 76cm'
-        }, {
-          img: '../assets/123_Bourges_Derriere_la_cathedrale_81cmx65xm.JPG',
-          title: 'Bourges - Derrière la cathédrale',
-          size: '81cm x 59cm'
-        }, {
-          img: '../assets/124_Montlucon_81cmx65cm.JPG',
-          title: 'Montluçon',
-          size: '81cm x 65cm'
-        }, {
-          img: '../assets/5_Tonnerre_Eglise_Saint_Pierre_81cmx65cm.JPG',
-          title: 'Tonnerre - Église Saint Pierre',
-          size: '81cm x 65cm'
-        }, {
-          img: '../assets/6_Tonnerre_Ete_1mx73cm.JPG',
-          title: 'Tonnerre - Éte',
-          size: '1m x 76cm'
-        }, {
-          img: '../assets/7_Tonnerre_Lumiere_dautomne_1mx73cm.JPG',
-          title: "Tonnerre - Lumière d'automne",
-          size: '1m x 76cm'
-        }, {
-          img: '../assets/8_Bourges_La_Cathedrale_1mx73cm.JPG',
-          title: 'Bourges - La cathédrale',
-          size:'1m x 76cm'
-        }, {
-          img: '../assets/Ancy_le_franc_81cmx65cm.jpg',
-          title: 'Ancy le Franc',
-          size: '1m x 76cm'
-        },
+          {
+            img: '../assets/4_Tonnerre_Le_petit_Logis_1mx1m.JPG',
+            title: "Tonnerre - Le petit logis",
+            size: '1m x 1m',
+          }, {
+            img: '../assets/2_Tonnerre_Eglise_Saint_Pierre_Eglise_Saint_Jean_1mx1m.JPG',
+            title: 'Tonnerre - Église Saint Pierre, église Saint Jean',
+            size: '1m x 1m',
+          }, {
+            img: '../assets/Joigny_pont_1.jpg',
+            title: 'Joigny',
+            size: '1m x 1m'
+          }, {
+            img: '../assets/10_Guillon_Village_de_Bourgogne_1mx1m.JPG',
+            title: 'Guillon - Village de Bourgogne',
+            size: '1m x 1m'
+          }, {
+            img: "../assets/9_Tonnerre_1mx1m.JPG",
+            title: "Tonnerre",
+            size: '1m x 1m'
+          }, {
+            img: "../assets/11_Savigny_en_Terre_Plaine_1mx1m.JPG",
+            title: "Savigny en terre plaine",
+            size: '1m x 1m'
+          }, {
+            img: '../assets/118_Village_de_France_1mx1m.JPG',
+            title: 'Époisses',
+            size: '1m x 1m'
+          }, {
+            img: '../assets/22_Avallon_La_Maison_des_Sires_1mx1m.JPG',
+            title: 'Avallon - La maison des Sires',
+            size: '1m x 1m'
+          }, {
+            img: '../assets/12_Paysage_81cmx65cm.JPG',
+            title: 'Paysage',
+            size: '1m x 76cm'
+          }, {
+            img: '../assets/123_Bourges_Derriere_la_cathedrale_81cmx65xm.JPG',
+            title: 'Bourges - Derrière la cathédrale',
+            size: '81cm x 59cm'
+          }, {
+            img: '../assets/124_Montlucon_81cmx65cm.JPG',
+            title: 'Montluçon',
+            size: '81cm x 65cm'
+          }, {
+            img: '../assets/5_Tonnerre_Eglise_Saint_Pierre_81cmx65cm.JPG',
+            title: 'Tonnerre - Église Saint Pierre',
+            size: '81cm x 65cm'
+          }, {
+            img: '../assets/6_Tonnerre_Ete_1mx73cm.JPG',
+            title: 'Tonnerre - Éte',
+            size: '1m x 76cm'
+          }, {
+            img: '../assets/7_Tonnerre_Lumiere_dautomne_1mx73cm.JPG',
+            title: "Tonnerre - Lumière d'automne",
+            size: '1m x 76cm'
+          }, {
+            img: '../assets/8_Bourges_La_Cathedrale_1mx73cm.JPG',
+            title: 'Bourges - La cathédrale',
+            size:'1m x 76cm'
+          }, {
+            img: '../assets/Ancy_le_franc_81cmx65cm.jpg',
+            title: 'Ancy le Franc',
+            size: '1m x 76cm'
+          },
+          
+          # ---------- End of the 1st 4x4 grid ---------- #
+
+          {
+            img: '../assets/Joigny_2_81cmx65cm.jpg',
+            title: 'Joigny 2',
+            size: '81cm x 65cm'
+          }, {
+            img: '../assets/Joigny_3_1mx1m.jpg',
+            title: 'Joigny 3',
+            size: '1m x 1m'
+          }, {
+            img: '../assets/Joigny_4_81cmx65cm.jpg',
+            title: 'Joigny 4',
+            size:'81cm x 65cm'
+          }, {
+            img: '../assets/Joigny_60cmx45cm.jpg',
+            title: 'Joigny',
+            size: '60cm x 45cm'
+          }, {
+            img: '../assets/13_Beine_Village_de_Bourgogne_2mx80cm.JPG',
+            title: 'Village de Bourgogne',
+            size: '2m x 80cm'
+          }, {
+            img: '../assets/16_Celibataires_a_Tonnerrre_1m20x60cm.JPG',
+            title: 'Célibataires à Tonnerre',
+            size: '1m20 x 60cm'
+          },
         
-        # ---------- End of the 1st 4x4 grid ---------- #
+          # ---------- End of the 2nd 4x4 grid ---------- #
 
-        {
-          img: '../assets/Joigny_2_81cmx65cm.jpg',
-          title: 'Joigny 2',
-          size: '81cm x 65cm'
-        }, {
-          img: '../assets/Joigny_3_1mx1m.jpg',
-          title: 'Joigny 3',
-          size: '1m x 1m'
-        }, {
-          img: '../assets/Joigny_4_81cmx65cm.jpg',
-          title: 'Joigny 4',
-          size:'81cm x 65cm'
-        }, {
-          img: '../assets/Joigny_60cmx45cm.jpg',
-          title: 'Joigny',
-          size: '60cm x 45cm'
-        }, {
-          img: '../assets/13_Beine_Village_de_Bourgogne_2mx80cm.JPG',
-          title: 'Village de Bourgogne',
-          size: '2m x 80cm'
-        }, {
-          img: '../assets/16_Celibataires_a_Tonnerrre_1m20x60cm.JPG',
-          title: 'Célibataires à Tonnerre',
-          size: '1m20 x 60cm'
-        },
-      
-        # ---------- End of the 2nd 4x4 grid ---------- #
-
-        {
-          img: '../assets/Auxerre_abbatiale_Saint_Germain.jpg',
-          title: 'Auxerre - Abbatiale Saint Germain',
-          size: '1m50 x 50cm'
-        }, {
-          img: '../assets/14_Bourges_La_maison_de_Jacques_Coeur_1m50x50cm.JPG',
-          title: 'Bourges - La maison de Jacques Cœur',
-          size: '1m50 x 50cm'
-        }, {
-          img: '../assets/18_Bourges_Lumiere_du_soir_1m50x50cm.JPG',
-          title: 'Bourges - Lumière du soir',
-          size:'1m50 x 50cm'
-        }, {
-          img: '../assets/15_Tonnerre_Vue_sur_leglise_Saint_Pierre_1m50x50cm.JPG',
-          title: "Tonnerre - Vue sur l'église",
-          size: '1m50 x 50cm'
-        }]
+          {
+            img: '../assets/Auxerre_abbatiale_Saint_Germain.jpg',
+            title: 'Auxerre - Abbatiale Saint Germain',
+            size: '1m50 x 50cm'
+          }, {
+            img: '../assets/14_Bourges_La_maison_de_Jacques_Coeur_1m50x50cm.JPG',
+            title: 'Bourges - La maison de Jacques Cœur',
+            size: '1m50 x 50cm'
+          }, {
+            img: '../assets/18_Bourges_Lumiere_du_soir_1m50x50cm.JPG',
+            title: 'Bourges - Lumière du soir',
+            size:'1m50 x 50cm'
+          }, {
+            img: '../assets/15_Tonnerre_Vue_sur_leglise_Saint_Pierre_1m50x50cm.JPG',
+            title: "Tonnerre - Vue sur l'église",
+            size: '1m50 x 50cm'
+          }
+        ]
       },
       marine: {
         title: "Marine",
@@ -327,6 +328,100 @@ class OeuvresController < ApplicationController
             img: '../assets/St_Jean_Cap_Ferrat_81cmx65cm.jpg',
             title: 'St Jean Cap Ferrat',
             size: '81cm x 65cm'
+          }
+        ]
+      },
+      portrait: {
+        title: "Portrait",
+        data: [
+          {
+            img: '../assets/76_Jeune_fille.JPG',
+            title: "Jeune fille",
+            size: '61cm x 46cm',
+          }, {
+            img: '../assets/80_Guillaume_Durand_61cmx46cm.JPG',
+            title: 'Guillaume Durand',
+            size: '61cm x 46cm',
+          }, {
+            img: '../assets/82_Thierry_Ardisson_61cmx46cm.JPG',
+            title: 'Thierry Ardisson',
+            size: '61cm x 46cm'
+          }, {
+            img: '../assets/77_Solitude_61cmx50cm.JPG',
+            title: 'Solitude',
+            size: '61cm x 50cm'
+          }, {
+            img: "../assets/78_Michel_Drucker_75cmx35cm.JPG",
+            title: "Michel Drucker",
+            size: '75cm x 35cm'
+          }, {
+            img: "../assets/Laurent_ruquier.jpg",
+            title: "Laurent Ruquier",
+            size: '61cm x 46cm'
+          }, {
+            img: '../assets/jean_marie_messier.jpg',
+            title: 'Jean Marie Messier',
+            size: '61cm x 46cm'
+          }, {
+            img: '../assets/Arnaud_Lagardere_60cmx46cm.jpg',
+            title: 'Arnaud Lagardère',
+            size: '61cm x 50cm'
+          }, {
+            img: '../assets/Vieillard.jpg',
+            title: 'Vieillard',
+            size: '61cm x 50cm'
+          }, {
+            img: '../assets/Jeune_femme.jpg',
+            title: 'Jeune femme',
+            size: '61cm x 46cm'
+          }, {
+            img: '../assets/Jacques_Attali_60cmx46cm.jpg',
+            title: 'Jacques Attali',
+            size: '61cm x 46cm'
+          }, {
+            img: '../assets/femme_africaine.jpg',
+            title: 'Femme africaine',
+            size: '61cm x 46cm'
+          },
+
+          # ---------- End of the 1st 3x3 grid ---------- #
+
+          {
+            img: '../assets/81_Attendre_46cmx38cm.JPG',
+            title: "Attendre",
+            size: '46cm x 38cm',
+          }, {
+            img: '../assets/79_Seule_61cmx46cm.JPG',
+            title: 'Seule',
+            size: '46cm x 38cm',
+          }, {
+            img: '../assets/Portrait_1.jpg',
+            title: 'Portrait 1',
+            size: '46cm x 38cm'
+          }, {
+            img: '../assets/Portrait_2_46cmx36cm.jpg',
+            title: 'Portrait 2',
+            size: '61cm x 50cm'
+          }, {
+            img: "../assets/Portrait_3_46cmx36cm.jpg",
+            title: "Portrait 3",
+            size: '75cm x 35cm'
+          }, {
+            img: "../assets/Portrait_4_46cmx36cm.jpg",
+            title: "Portrait 4",
+            size: '46cm x 36cm'
+          }, {
+            img: '../assets/Portrait_5_46cmx36cm.jpg',
+            title: 'Portrait 5',
+            size: '46cm x 36cm'
+          }, {
+            img: '../assets/Portrait_6_46cmx36cm.jpg',
+            title: 'Portrait 6',
+            size: '46cm x 36cm'
+          }, {
+            img: '../assets/Portrait_7_46cmx36cm.jpg',
+            title: 'Portrait 7',
+            size: '46cm x 36cm'
           }
         ]
       }
