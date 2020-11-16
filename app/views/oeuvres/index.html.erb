@@ -25,7 +25,7 @@
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
                     <div>
-                      <h4><%= tableau[:title] %></h4>
+                      <h5><%= tableau[:title] %></h5>
                       <p><%= tableau[:size] %></p>
                     </div>
                   </div>
@@ -41,7 +41,7 @@
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
                     <div>
-                      <h4><%= tableau[:title] %></h4>
+                      <h5><%= tableau[:title] %></h5>
                       <p><%= tableau[:size] %></p>
                     </div>
                   </div>
@@ -69,7 +69,7 @@
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
                     <div>
-                      <h4><%= tableau[:title] %></h4>
+                      <h5><%= tableau[:title] %></h5>
                       <p><%= tableau[:size] %></p>
                     </div>
                   </div>
@@ -84,7 +84,7 @@
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
                     <div>
-                      <h4><%= tableau[:title] %></h4>
+                      <h5><%= tableau[:title] %></h5>
                       <p><%= tableau[:size] %></p>
                     </div>
                   </div>
@@ -99,7 +99,7 @@
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
                     <div>
-                      <h4><%= tableau[:title] %></h4>
+                      <h5><%= tableau[:title] %></h5>
                       <p><%= tableau[:size] %></p>
                     </div>
                   </div>
@@ -112,40 +112,41 @@
 
           <%# # ---------- 3rd carousel slide ---------- # %>
 
-
-        <div class="carousel-item">
-          <div class="container-abs">
-            <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
-              <% @collection[:data].each_with_index do |tableau, index| %>
-                <% if index > 19 %>
-                  <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
-                    <div class="content-img">
-                      <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
-                      <div>
-                        <h4><%= tableau[:title] %></h4>
-                        <p><%= tableau[:size] %></p>
+        <% unless current_page?(oeuvres_collection_index_path('portrait')) %>
+          <div class="carousel-item">
+            <div class="container-abs">
+              <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
+                <% @collection[:data].each_with_index do |tableau, index| %>
+                  <% if index > 19 %>
+                    <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
+                      <div class="content-img">
+                        <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
+                        <div>
+                          <h5><%= tableau[:title] %></h5>
+                          <p><%= tableau[:size] %></p>
+                        </div>
                       </div>
-                    </div>
-                  </button>
+                    </button>
+                  <% end %>
+                <% end %>
+              <% else %>
+                <% @collection[:data].each_with_index do |tableau, index| %>
+                  <% if index > 27 %>
+                    <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
+                      <div class="content-img">
+                        <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
+                        <div>
+                          <h5><%= tableau[:title] %></h5>
+                          <p><%= tableau[:size] %></p>
+                        </div>
+                      </div>
+                    </button>
+                  <% end %>
                 <% end %>
               <% end %>
-            <% else %>
-              <% @collection[:data].each_with_index do |tableau, index| %>
-                <% if index > 27 %>
-                  <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
-                    <div class="content-img">
-                      <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
-                      <div>
-                        <h4><%= tableau[:title] %></h4>
-                        <p><%= tableau[:size] %></p>
-                      </div>
-                    </div>
-                  </button>
-                <% end %>
-              <% end %>
-            <% end %>
+            </div>
           </div>
-        </div>
+        <% end %>
 
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
