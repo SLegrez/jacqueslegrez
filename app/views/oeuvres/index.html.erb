@@ -131,7 +131,7 @@
               <% end %>
             <% else %>
               <% @collection[:data].each_with_index do |tableau, index| %>
-                <% if index > 19 %>
+                <% if index > 27 %>
                   <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
                     <div class="content-img">
                       <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
