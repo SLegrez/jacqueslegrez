@@ -15,20 +15,10 @@ import 'bootstrap';
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+import { intelligentModal } from '../components/intelModal';
 import { loadDynamicBannerText } from '../components/typed';
-// import { intelligentModal } from '../components/intelModal';
-import $ from 'jquery';
 
 document.addEventListener('turbolinks:load', () => {
+  intelligentModal();
   loadDynamicBannerText();
-  // intelligentModal();
 });
-
-window.onload = function (e) {
-  $('.btn-image').on('click', function() {
-    var index = $(this).data('index');
-
-    $('#carousel-images').carousel(index);
-    $('#modal-carousel').modal('show');
-  })
-}
