@@ -18,6 +18,22 @@
         <% if current_page?(oeuvres_collection_index_path('portrait')) %>
           <div class="container-portrait">
             <% @collection[:data].each_with_index do |tableau, index| %>
+              <% if index < 9 %>
+                <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
+                  <div class="content-img">
+                    <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
+                    <div>
+                      <h5><%= tableau[:title] %></h5>
+                      <p><%= tableau[:size] %></p>
+                    </div>
+                  </div>
+                </button>
+              <% end %>
+            <% end %>
+          </div>
+        <% elsif current_page?(oeuvres_collection_index_path('figuratif')) %>
+          <div class="container-abs">
+            <% @collection[:data].each_with_index do |tableau, index| %>
               <% if index < 12 %>
                 <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
                   <div class="content-img">
@@ -62,7 +78,7 @@
           <% if current_page?(oeuvres_collection_index_path('portrait')) %>
             <% @collection[:data].each_with_index do |tableau, index| %>
               <% case index %>
-              <% when 12..23 %>
+              <% when 9..17 %>
                 <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
@@ -77,7 +93,7 @@
           <% elsif current_page?(oeuvres_collection_index_path('figuratif')) %>
             <% @collection[:data].each_with_index do |tableau, index| %>
               <% case index %>
-              <% when 16..19 %>
+              <% when 12..19 %>
                 <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
                   <div class="content-img">
                     <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
@@ -111,64 +127,68 @@
           <%# # ---------- 3rd carousel slide ---------- # %>
 
         <div class="carousel-item">
-          <div class="container-abs">
-            <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
-              <% @collection[:data].each_with_index do |tableau, index| %>
-                <% if index > 19 %>
-                  <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
-                    <div class="content-img">
-                      <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
-                      <div>
-                        <h5><%= tableau[:title] %></h5>
-                        <p><%= tableau[:size] %></p>
-                      </div>
+          <% if current_page?(oeuvres_collection_index_path('portrait')) %>
+            <div class="container-portrait">
+          <% else %>
+            <div class="container-abs">
+          <% end %>
+          <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
+            <% @collection[:data].each_with_index do |tableau, index| %>
+              <% if index > 19 %>
+                <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
+                  <div class="content-img">
+                    <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
+                    <div>
+                      <h5><%= tableau[:title] %></h5>
+                      <p><%= tableau[:size] %></p>
                     </div>
-                  </button>
-                <% end %>
-              <% end %>
-            <% elsif current_page?(oeuvres_collection_index_path('portrait')) %>
-              <% @collection[:data].each_with_index do |tableau, index| %>
-                <% if index > 20 %>
-                  <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
-                    <div class="content-img">
-                      <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
-                      <div>
-                        <h5><%= tableau[:title] %></h5>
-                        <p><%= tableau[:size] %></p>
-                      </div>
-                    </div>
-                  </button>
-                <% end %>
-              <% end %>
-            <% else %>
-              <% @collection[:data].each_with_index do |tableau, index| %>
-                <% if index > 27 %>
-                  <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
-                    <div class="content-img">
-                      <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
-                      <div>
-                        <h5><%= tableau[:title] %></h5>
-                        <p><%= tableau[:size] %></p>
-                      </div>
-                    </div>
-                  </button>
-                <% end %>
+                  </div>
+                </button>
               <% end %>
             <% end %>
+          <% elsif current_page?(oeuvres_collection_index_path('portrait')) %>
+            <% @collection[:data].each_with_index do |tableau, index| %>
+              <% if index > 17 %>
+                <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
+                  <div class="content-img">
+                    <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
+                    <div>
+                      <h5><%= tableau[:title] %></h5>
+                      <p><%= tableau[:size] %></p>
+                    </div>
+                  </div>
+                </button>
+              <% end %>
+            <% end %>
+          <% else %>
+            <% @collection[:data].each_with_index do |tableau, index| %>
+              <% if index > 27 %>
+                <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
+                  <div class="content-img">
+                    <img src="<%= tableau[:img] %>" class="img-transition" alt="<%= tableau[:title] %>">
+                    <div>
+                      <h5><%= tableau[:title] %></h5>
+                      <p><%= tableau[:size] %></p>
+                    </div>
+                  </div>
+                </button>
+              <% end %>
+            <% end %>
+          <% end %>
           </div>
         </div>
 
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-      <% end %>
+    <% end %>
 
 <%# # ---------- End of carousel ---------- # %>
 <%# ---------- Modal ---------- %>
