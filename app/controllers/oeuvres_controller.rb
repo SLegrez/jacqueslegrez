@@ -371,7 +371,7 @@ class OeuvresController < ApplicationController
             title: 'Vieillard',
             size: '61cm x 50cm'
           }, {
-            img: '../assets/Jeune_femme.jpg',
+            img: '../assets/Portrait_11_61cmx46cm.jpg',
             title: 'Jeune femme',
             size: '61cm x 46cm'
           }, {
@@ -403,15 +403,15 @@ class OeuvresController < ApplicationController
             title: 'Portrait 2',
             size: '61cm x 50cm'
           }, {
+            img: "../assets/Portrait_8_46cmx38cm.jpg",
+            title: "Portrait 4",
+            size: '46cm x 38cm'
+          }, {
             img: "../assets/Portrait_3_46cmx36cm.jpg",
             title: "Portrait 3",
             size: '75cm x 35cm'
           }, {
-            img: "../assets/Portrait_4_46cmx36cm.jpg",
-            title: "Portrait 4",
-            size: '46cm x 36cm'
-          }, {
-            img: '../assets/Portrait_5_46cmx36cm.jpg',
+            img: '../assets/Portrait_8_46cmx55cm.jpg',
             title: 'Portrait 5',
             size: '46cm x 36cm'
           }, {
@@ -422,6 +422,26 @@ class OeuvresController < ApplicationController
             img: '../assets/Portrait_7_46cmx36cm.jpg',
             title: 'Portrait 7',
             size: '46cm x 36cm'
+          }, {
+            img: '../assets/Portrait_4_46cmx36cm.jpg',
+            title: 'Portrait 4',
+            size: '46cm x 36cm'
+          }, {
+            img: "../assets/Portrait_9_46cmx38cm.jpg",
+            title: "Portrait 9",
+            size: '46cm x 36cm'
+          }, {
+            img: '../assets/Portrait_12_46cmx38cm.jpg',
+            title: 'Portrait 12',
+            size: '46cm x 38cm'
+          }, {
+            img: '../assets/Portrait_10_61cmx50cm.jpg',
+            title: 'Portrait 10',
+            size: '61cm x 50cm'
+          }, {
+            img: '../assets/Portrait_61cmx46cm.jpg',
+            title: 'Portrait 13',
+            size: '61cm x 46cm'
           }
         ]
       }
