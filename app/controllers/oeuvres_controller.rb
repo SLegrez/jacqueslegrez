@@ -150,7 +150,7 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: '../assets/137_Andromaque_81cmx65cm.JPG',
-            title: 'Andomaque',
+            title: 'Andromaque',
             size: '81cm x 65cm'
           }, {
             img: '../assets/59_Passe-simple_81cmx65cm.JPG',
