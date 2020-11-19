@@ -306,6 +306,14 @@ class OeuvresController < ApplicationController
             img: '../assets/15_Tonnerre_Vue_sur_leglise_Saint_Pierre_1m50x50cm.JPG',
             title: "Tonnerre - Vue sur l'église",
             size: '1m50 x 50cm'
+          }, {
+            img: '../assets/Montlucon_2m10x80cm.jpg',
+            title: 'Montluçon',
+            size:'2m10 x 80cm'
+          }, {
+            img: '../assets/aucune_idee.jpg',
+            title: "??????",
+            size: '?????'
           }
         ]
       },
@@ -422,18 +430,6 @@ class OeuvresController < ApplicationController
             img: '../assets/Portrait_7_46cmx36cm.jpg',
             title: 'Portrait 7',
             size: '46cm x 36cm'
-          }, {
-            img: '../assets/Portrait_4_46cmx36cm.jpg',
-            title: 'Portrait 4',
-            size: '46cm x 36cm'
-          }, {
-            img: "../assets/Portrait_9_46cmx38cm.jpg",
-            title: "Portrait 9",
-            size: '46cm x 36cm'
-          }, {
-            img: '../assets/Portrait_12_46cmx38cm.jpg',
-            title: 'Portrait 12',
-            size: '46cm x 38cm'
           }, {
             img: '../assets/Portrait_10_61cmx50cm.jpg',
             title: 'Portrait 10',
