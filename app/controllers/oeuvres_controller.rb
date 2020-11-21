@@ -6,23 +6,23 @@ class OeuvresController < ApplicationController
         data: [
           {
             img: '../assets/57_Souvenir_dune_amie_tres_lointaine_81cmx65cm.JPG',
-            title: "Souvenir d'une amie très lointaine",
-            size: '81cm x 65cm',
+            title: "Dans la peau de Pieter Brueghel",
+            size: '81cm x 65cm'
           }, {
             img: '../assets/48_Varadeiro_81cmx65cm.JPG',
-            title: 'Varadeiro',
-            size: '81cm x 65cm',
+            title: 'Itinéraire',
+            size: '81cm x 65cm'
           }, {
             img: '../assets/108_Dernier_jour_a_Epidaure_81cmx65cm.JPG',
-            title: 'Dernier jour à Épidaure',
+            title: 'Fin Avril',
             size: '81cm x 65cm'
           }, {
             img: '../assets/40_effraction_digitale81cmx65cm.JPG',
-            title: 'Effraction digitale',
+            title: 'Monosyllabe',
             size: '81cm x 65cm'
           }, {
             img: "../assets/52_acronyme_d'un_amalgame_81cmx65cm.JPG",
-            title: "Acronyme d'un amalgame",
+            title: "Solfège",
             size: '81cm x 65cm'
           }, {
             img: "../assets/68_Ebauche_incomplete_dune_memoire_81cmx65cm.JPG",
@@ -30,7 +30,7 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: '../assets/114_En_tout_état_de_cause_81x65.jpg',
-            title: 'En tout état de cause',
+            title: 'Rue Campagne-Première',
             size: '81cm x 65cm'
           }, {
             img: '../assets/73_Sursis_pour_Charles_Martel_81cmx65cm.JPG',
@@ -46,19 +46,19 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: '../assets/131_Archipel_V_81cmx65cm.JPG',
-            title: 'Archipel V',
+            title: 'Archipel',
             size: '81cm x 65cm'
           }, {
             img: '../assets/129_Mykonos_81cmx65cm.JPG',
-            title: 'Mykonos',
+            title: 'Efficience',
             size: '81cm x 65cm'
           }, {
             img: '../assets/39_Jurisprudence_81cmx65cm.JPG',
-            title: 'Jurisprudence',
+            title: 'Métro Chardon-Lagache',
             size: '81cm x 65cm'
           }, {
             img: '../assets/112_Ecoutez_Wolfgang_81cmx65cm.JPG',
-            title: 'Toujours pauvre',
+            title: 'Août à Trevise',
             size: '81cm x 65cm'
           }, {
             img: '../assets/104_Eugene_dans_le_tiroir_81cmx65cm.JPG',
@@ -66,7 +66,7 @@ class OeuvresController < ApplicationController
             size:'2m x 80cm'
           }, {
             img: '../assets/86731261_3131630627062198_8178105704293335040_o.jpg',
-            title: 'Vocabulaire',
+            title: 'Répertoire',
             size: '81cm x 65cm'
           },
           
@@ -74,11 +74,11 @@ class OeuvresController < ApplicationController
 
           {
             img: '../assets/115_Toutes_choses_confondues_1mx1m.JPG',
-            title: 'Toutes choses confondues',
+            title: "Dans l'atelier du Caravage",
             size: '1m x 1m'
           }, {
             img: '../assets/33_Jours_tranquilles_a_Babylone_1mx1m.JPG',
-            title: 'Jours tranquilles à Babylone',
+            title: 'Métamorphose',
             size: '1m x 1m'
           }, {
             img: '../assets/116_Soit_dit_en_passant_1mx1m.JPG',
@@ -90,35 +90,35 @@ class OeuvresController < ApplicationController
             size: '1m x 1m'
           }, {
             img: '../assets/30_Fidelite_a_Paul_Verlaine_1mx1m.JPG',
-            title: 'Fidelité à Paul Verlaine',
+            title: 'Génome',
             size: '1m x 1m'
           }, {
             img: '../assets/31_Citadelle_1mx1m.JPG',
-            title: 'Citadelle',
+            title: 'Fleury Mérogis',
             size: '1m x 1m'
           }, {
             img: '../assets/117_Deux_jours_plus_tard_1mx1m.JPG',
-            title: 'Deux jours plus tard',
+            title: 'La fumée vous dérange ?',
             size:'1m x 1m'
           }, {
             img: '../assets/26_Equinoxe_1mx1m.JPG',
-            title: 'Équinoxe',
+            title: 'Exil',
             size: '1m x 1m'
           }, {
             img: '../assets/125_Accroc_au_porte_jaretelles_1mx1m.JPG',
-            title: 'Accroc aux porte-jaretelles',
+            title: "Les tricheurs, d'après George de La Tour",
             size: '1m x 1m'
           }, {
             img: '../assets/34_Apres_Fukushima_1mx1m.JPG',
-            title: 'Après Fukushima',
+            title: 'Coefficient',
             size: '1m x 1m'
           }, {
             img: "../assets/29_Chute_de_Saint_Jean_D'Acre_1mx1m.JPG",
-            title: "Chute de Saint Jean d'Acre",
+            title: "Où est Carlos Ghosn ?",
             size:'1m x 1m'
           }, {
             img: '../assets/121061539_371310894053328_3040811368103126819_n.jpg',
-            title: '????????????',
+            title: 'Équinoxe',
             size: '1m x 1m'
           },
           
@@ -129,7 +129,7 @@ class OeuvresController < ApplicationController
             title: 'karthoum.bazar@.com',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/Mozart_est_mort_seul.jpg',
+            img: '../assets/Mozart_est_mort_seull.jpg',
             title: 'Mozart est mort seul',
             size: '81cm x 65cm'
           }, {
@@ -219,8 +219,8 @@ class OeuvresController < ApplicationController
             title: "Savigny en terre plaine",
             size: '1m x 1m'
           }, {
-            img: '../assets/118_Village_de_France_1mx1m.JPG',
-            title: 'Époisses',
+            img: '../assets/abbatiale_saint_germain_auxerre_1mx1m.jpg',
+            title: 'Abbatiale Saint-Germain - Auxerre',
             size: '1m x 1m'
           }, {
             img: '../assets/22_Avallon_La_Maison_des_Sires_1mx1m.JPG',
@@ -303,9 +303,9 @@ class OeuvresController < ApplicationController
             title: 'Bourges - Lumière du soir',
             size:'1m50 x 50cm'
           }, {
-            img: '../assets/15_Tonnerre_Vue_sur_leglise_Saint_Pierre_1m50x50cm.JPG',
-            title: "Tonnerre - Vue sur l'église",
-            size: '1m50 x 50cm'
+            img: '../assets/Joigny_rue_pasteur_1m68x80cm.jpg',
+            title: "Joigny - Rue Pasteur",
+            size: '1m68 x 80cm'
           }, {
             img: '../assets/Montlucon_2m10x80cm.jpg',
             title: 'Montluçon',
@@ -434,6 +434,14 @@ class OeuvresController < ApplicationController
             img: '../assets/Jacques_Attali_60cmx46cm.jpg',
             title: 'Jacques Attali',
             size: '61cm x 46cm'
+          }, {
+            img: '../assets/portrait_13_46cmx38cm.jpg',
+            title: 'Portrait 13',
+            size: '46cm x 38cm'
+          }, {
+            img: '../assets/bernard_arnaud_61cmx48cm.jpg',
+            title: 'Bernard Arnaud',
+            size: '61cm x 48cm'
           }
         ]
       }
