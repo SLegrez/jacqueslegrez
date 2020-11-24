@@ -8,3 +8,13 @@
   text-indent: 2em;
   text-align: center;
 }
+@media (min-width: 100px) and (max-width: 400px) {
+  .no-indent {
+    text-indent: 0em !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  .no-indent {
+    text-indent: 0em !important;
+  }
+}
