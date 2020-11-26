@@ -13,7 +13,15 @@
       oeuvres sont des huiles sur toiles.">
     <link rel="shortcut icon" href="../assets/paint-palette.png" />
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@700&display=swap" rel="stylesheet"> 
-    <title>Jacques Legrez Peintre | <%= yield(:title) %></title>
+    
+    <%# Intelligent title %>
+    <% if current_page?(root_path) %>
+      <title>Jacques Legrez Peintre</title>
+    <% else %>
+      <title>Jacques Legrez Peintre | <%= yield(:title) %></title>
+    <% end %>
+    <%# end %>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
