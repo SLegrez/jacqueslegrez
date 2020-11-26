@@ -312,8 +312,8 @@ class OeuvresController < ApplicationController
             size:'2m10 x 80cm'
           }, {
             img: '../assets/aucune_idee.jpg',
-            title: "??????",
-            size: '?????'
+            title: "Le pont de Joigny",
+            size: '1m90 x 80cm'
           }
         ]
       },
@@ -392,7 +392,7 @@ class OeuvresController < ApplicationController
             size: '61cm x 46cm'
           }, {
             img: '../assets/Portrait_1.jpg',
-            title: 'Portrait 1',
+            title: 'Myriam',
             size: '46cm x 38cm'
           }, {
             img: '../assets/77_Solitude_61cmx50cm.JPG',
@@ -400,11 +400,11 @@ class OeuvresController < ApplicationController
             size: '61cm x 50cm'
           }, {
             img: "../assets/Portrait_8_46cmx38cm.jpg",
-            title: "Portrait 4",
+            title: "Anita",
             size: '46cm x 38cm'
           }, {
             img: '../assets/Portrait_2_46cmx36cm.jpg',
-            title: 'Portrait 2',
+            title: 'Toilette du matin',
             size: '61cm x 50cm'
           }, {
             img: '../assets/Portrait_8_46cmx55cm.jpg',
