@@ -326,11 +326,11 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: '../assets/Marine_1m90mx80cm.jpg',
-            title: 'Marine 1',
+            title: 'Punta Cana',
             size: '1m90 x 80cm'
           }, {
             img: '../assets/Marine_2mx80cm.jpg',
-            title: 'Marine 2',
+            title: 'Vendée Globe',
             size:'2m x 80cm'
           }, {
             img: '../assets/St_Jean_Cap_Ferrat_81cmx65cm.jpg',
@@ -435,7 +435,7 @@ class OeuvresController < ApplicationController
             title: 'Jacques Attali',
             size: '61cm x 46cm'
           }, {
-            img: '../assets/portrait_13_46cmx38cm.jpg',
+            img: '../assets/portrait_13v2_46cmx38cm.jpg',
             title: 'Portrait 13',
             size: '46cm x 38cm'
           }, {
