@@ -191,7 +191,7 @@ class OeuvresController < ApplicationController
           }
         ]
       },
-      figuratif: {
+      lafrancequejaime: {
         title: "La France que j'aime",
         data: [
           {

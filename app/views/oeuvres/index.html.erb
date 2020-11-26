@@ -31,7 +31,7 @@
               <% end %>
             <% end %>
           </div>
-        <% elsif current_page?(oeuvres_collection_index_path('figuratif')) %>
+        <% elsif current_page?(oeuvres_collection_index_path('lafrancequejaime')) %>
           <div class="container-abs">
             <% @collection[:data].each_with_index do |tableau, index| %>
               <% if index < 12 %>
@@ -70,7 +70,7 @@
 
       <% unless current_page?(oeuvres_collection_index_path('marine')) %>
         <div class="carousel-item">
-          <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
+          <% if current_page?(oeuvres_collection_index_path('lafrancequejaime')) %>
             <div class="container-abs">
           <% else %>
             <div class="container-portrait">
@@ -90,7 +90,7 @@
                 </button>
               <% end %>
             <% end %>
-          <% elsif current_page?(oeuvres_collection_index_path('figuratif')) %>
+          <% elsif current_page?(oeuvres_collection_index_path('lafrancequejaime')) %>
             <% @collection[:data].each_with_index do |tableau, index| %>
               <% case index %>
               <% when 12..19 %>
@@ -132,7 +132,7 @@
           <% else %>
             <div class="container-abs">
           <% end %>
-          <% if current_page?(oeuvres_collection_index_path('figuratif')) %>
+          <% if current_page?(oeuvres_collection_index_path('lafrancequejaime')) %>
             <% @collection[:data].each_with_index do |tableau, index| %>
               <% if index > 19 %>
                 <button type="button" class="btn btn-image shadow-none" style="padding: 0 !important" data-index="<%= index %>">
