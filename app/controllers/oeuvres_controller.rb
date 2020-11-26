@@ -157,8 +157,8 @@ class OeuvresController < ApplicationController
             title: 'Passé simple',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/135_Appel_sans_suite_81cmx65cm.JPG',
-            title: 'Appel sans suite',
+            img: '../assets/focus_sur_botticelli_81cmx65cm.jpg',
+            title: 'Focus sur Botticelli',
             size: '81cm x 65cm'
           }, {
             img: '../assets/66_Eloignement_81cmx65cm.JPG',
