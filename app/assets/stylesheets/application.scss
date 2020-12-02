@@ -33,6 +33,10 @@ h2 {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+::selection {
+  color: orange;
+  background: white;
+}
 // iphone 6 & 7 
 @media (min-width: 100px) and (max-width: 400px) {
   .container-abs {
