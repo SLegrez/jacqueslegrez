@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'lart-en-question', to: 'pages#lart_en_question'
   get 'contact', to: 'pages#contact'
   get 'oeuvres/:id', to: 'oeuvres#index', as: 'oeuvres_collection_index'
+  resources :contact, only: [:new, :create]
 end
