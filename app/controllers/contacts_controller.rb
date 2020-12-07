@@ -8,6 +8,7 @@ class ContactsController < ApplicationController
     @contact.request = request
     if @contact.deliver
       flash.now[:notice] = 'Merci pour votre message, je reviens vers vous très prochainement !'
+      render root_path
     else
       flash.now[:alert] = "Votre message n'a pas pu être envoyé, veuillez vérifier les données saisies"
       render :new

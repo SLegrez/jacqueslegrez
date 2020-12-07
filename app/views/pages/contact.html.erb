@@ -1,5 +1,18 @@
 <% provide(:title, "Contact") %>
 <div class="container-contact">
   <h2>Contact</h2>
-  <p class="no-indent">Email: <span class='beige'>legrez.peintre@gmail.com</span></p>
+  <%# <p class="no-indent">Email: <span class='beige'>legrez.peintre@gmail.com</span></p> %>
+
+  <%= simple_form_for Contact.new, url: contact_path do |f| %>
+
+  <%= f.input :name %>
+
+  <%= f.input :email %>
+
+  <%= f.input :message %>
+
+  <%= f.input :nickname, class: "hidden" %>
+
+  <%= f.button :submit, class: "btn-primary" %>
+  <% end %>
 </div>
