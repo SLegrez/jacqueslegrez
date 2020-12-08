@@ -1,12 +1,14 @@
 .container-contact {
   width: 50%;
   margin: auto;
-  margin-top: 10em;
 }
 .container-contact p {
   color: wheat;
   text-indent: 2em;
   text-align: center;
+}
+.hidden {
+  display: none;
 }
 @media (min-width: 100px) and (max-width: 400px) {
   .no-indent {

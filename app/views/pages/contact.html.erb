@@ -1,5 +1,22 @@
 <% provide(:title, "Contact") %>
 <div class="container-contact">
   <h2>Contact</h2>
-  <p class="no-indent">Email: <span class='beige'>legrez.peintre@gmail.com</span></p>
+
+  <%= simple_form_for Contact.new, url: contact_path, method: "post", remote: true do |f| %>
+
+    <div class="form-group">
+      <%= label_tag "contact[name]", 'Prénom NOM' %>
+      <%= text_field_tag "contact[name]", nil, class: 'form-control', placeholder: 'Votre nom' %>
+    </div>
+    <div class="form-group">
+      <%= label_tag "contact[email]", 'Email' %>
+      <%= text_field_tag "contact[email]", nil, class: 'form-control', placeholder: 'Votre email' %>
+    </div>
+    <div class="form-group">
+      <%= label_tag "contact[message]", 'Message' %>
+      <%= text_field_tag "contact[message]", nil, class: 'form-control', placeholder: 'Votre message' %>
+    </div>
+    <button type="submit" class="btn btn-primary">Envoyer</button>
+
+  <% end %>
 </div>
