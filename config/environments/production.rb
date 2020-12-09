@@ -121,7 +121,7 @@ Rails.application.configure do
     user_name:            ENV["GMAIL_EMAIL"],
     password:             ENV["GMAIL_PASSWORD"],
     authentication:       'plain',
-    enable_starttls_auto: true  }
+    enable_starttls_auto: false  }
 
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV['SENDGRID_USERNAME'],
@@ -130,6 +130,6 @@ Rails.application.configure do
     :address => 'smtp.sendgrid.net',
     :port => 587,
     :authentication => :plain,
-    :enable_starttls_auto => true
+    :enable_starttls_auto => false
   }
 end
