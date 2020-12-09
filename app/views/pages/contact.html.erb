@@ -2,7 +2,7 @@
 <div class="container-contact">
   <h2>Contact</h2>
 
-  <%= simple_form_for Contact.new, url: contact_path, method: "post", remote: true do |f| %>
+  <%= simple_form_for Contact.new, url: contact_path, method: "post" do |f| %>
 
     <div class="form-group">
       <%= label_tag "contact[name]", 'Prénom NOM' %>
