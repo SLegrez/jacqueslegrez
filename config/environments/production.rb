@@ -108,27 +108,25 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
-  config.force_ssl = true
-  
-  config.action_mailer.default_url_options = { host: 'https://jacques-legrez.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'jacques-legrez.herokuapp.com/' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_caching = false
 
-  config.action_mailer.smtp_settings = {
-    address:              'smtp.gmail.com',
-    port:                 587,
-    domain:               'gmail.com',
-    user_name:            ENV["GMAIL_EMAIL"],
-    password:             ENV["GMAIL_PASSWORD"],
-    authentication:       'plain',
-    enable_starttls_auto: true  }
+  # config.action_mailer.smtp_settings = {
+  #   address:              'smtp.gmail.com',
+  #   port:                 587,
+  #   domain:               'gmail.com',
+  #   user_name:            ENV["GMAIL_EMAIL"],
+  #   password:             ENV["GMAIL_PASSWORD"],
+  #   authentication:       'plain',
+  #   enable_starttls_auto: true  }
 
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV['SENDGRID_USERNAME'],
     :password => ENV['SENDGRID_PASSWORD'],
-    :domain => 'https://jacques-legrez.herokuapp.com/',
+    :domain => 'jacques-legrez.herokuapp.com/',
     :address => 'smtp.sendgrid.net',
     :port => 587,
     :authentication => :plain,
