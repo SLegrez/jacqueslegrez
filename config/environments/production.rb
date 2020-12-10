@@ -120,9 +120,8 @@ Rails.application.configure do
     domain:               'gmail.com',
     user_name:            ENV["GMAIL_EMAIL"],
     password:             ENV["GMAIL_PASSWORD"],
-    authentication:       'plain',
-    # enable_starttls_auto: true,
-    :openssl_verify_mode  => 'none'  }
+    authentication:       'login',
+    enable_starttls_auto: true  }
 
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV['SENDGRID_USERNAME'],
@@ -130,8 +129,7 @@ Rails.application.configure do
     :domain => 'https://jacques-legrez.herokuapp.com/',
     :address => 'smtp.sendgrid.net',
     :port => 587,
-    :authentication => :plain,
-    # :enable_starttls_auto => true,
-    :openssl_verify_mode  => 'none'
+    :authentication => :login,
+    :enable_starttls_auto => true
   }
 end
