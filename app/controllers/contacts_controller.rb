@@ -7,10 +7,10 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contacts_params)
     @contact.request = request
     if @contact.deliver
-      # flash[:notice] = "aaaaaa"
+      flash[:notice] = "aaaaaa"
     else
-      # flash[:alert] = "bbbbbbbb"
-      redirect_to(contact_path)
+      flash[:alert] = "bbbbbbbb"
+      redirect_to contact_path
     end
   end
 
