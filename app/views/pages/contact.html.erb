@@ -2,21 +2,18 @@
 <div class="container-contact">
   <h2>Contact</h2>
 
-  <%= simple_form_for Contact.new, url: contact_path, method: "post" do |f| %>
+  <%= simple_form_for Contact.new, url: contact_path, method: "post", html: { autocomplete: "off" } do |f| %>
 
     <div class="form-group">
-      <%= label_tag "contact[name]", 'Prénom NOM' %>
-      <%= text_field_tag "contact[name]", nil, class: 'form-control', placeholder: 'Votre nom' %>
+      <%= text_field_tag "contact[name]", nil, class: 'form-control form-credentials', placeholder: 'Prénom NOM' %>
     </div>
     <div class="form-group">
-      <%= label_tag "contact[email]", 'Email' %>
-      <%= text_field_tag "contact[email]", nil, class: 'form-control', placeholder: 'Votre email' %>
+      <%= text_field_tag "contact[email]", nil, class: 'form-control form-credentials', placeholder: 'Email' %>
     </div>
     <div class="form-group">
-      <%= label_tag "contact[message]", 'Message' %>
-      <%= text_field_tag "contact[message]", nil, class: 'form-control', placeholder: 'Votre message' %>
+      <%= text_area_tag "contact[message]", nil, class: 'form-control form-message', placeholder: 'Votre message', rows: '4' %>
     </div>
-    <button type="submit" class="btn btn-primary">Envoyer</button>
+    <button type="submit" class="btn btn-primary btn-submit">Envoyer</button>
 
   <% end %>
 </div>

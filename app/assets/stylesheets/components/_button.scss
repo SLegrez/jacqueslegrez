@@ -1,0 +1,13 @@
+.btn-submit {
+  border-radius: 0px !important;
+  color: wheat !important;
+  background-color: brown !important;
+  border: 1px solid wheat !important;
+}
+.btn-submit:hover {
+  color: brown !important;
+  background-color: wheat !important;
+}
+.btn-submit:focus {
+  box-shadow: none !important;
+}

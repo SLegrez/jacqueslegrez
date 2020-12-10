@@ -1,0 +1,24 @@
+.form-credentials {
+  background-color: brown !important;
+  border-bottom: 1px solid #ced4da !important;
+  border-radius: 0px !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin-bottom: 3em !important;
+  color: wheat !important;
+}
+.form-credentials:focus {
+  color: wheat !important;
+  box-shadow: none !important;
+}
+.form-message {
+  color: brown !important;
+  background-color: wheat !important;
+  border-radius: 0px !important;
+}
+.form-message:focus {
+  color: black !important;
+  background-color: wheat !important;
+  box-shadow: none !important;
+}
