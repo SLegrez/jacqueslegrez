@@ -1,4 +1,6 @@
 class ContactsController < ApplicationController
+  skip_forgery_protection
+
   def new
     @contact = Contact.new
   end
