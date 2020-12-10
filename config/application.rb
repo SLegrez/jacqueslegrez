@@ -11,7 +11,6 @@ module Jacqueslegrez
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
-    Dotenv::Railtie.load
     config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
       port:                 587,
