@@ -26,12 +26,12 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
+gem 'dotenv-rails', groups: [:development, :test, :production]
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 gem 'mail_form'
-gem 'dotenv-rails', groups: [:development, :test]
 gem 'sendgrid-ruby'
 
 group :development, :test do
