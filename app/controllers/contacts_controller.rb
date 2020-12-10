@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
       flash.now[:notice] = "Merci pour votre message, je reviens vers vous très prochainement !"
     else
       flash.now[:alert] = "Votre message n'a pas pu être envoyé, veuillez vérifier les données saisies"
-      redirect_to contact_path
+      render :new
     end
   end
 
