@@ -35,6 +35,9 @@
       <%= render 'shared/navbar' %>
     <% end %>
     <%= yield %>
+    <% flash.each do |name, msg| %>
+      <%= render 'shared/flashes' %>
+    <% end %>
   </body>
   <style>
     <% if current_page?(lart_en_question_path) | current_page?(contact_path) %>
