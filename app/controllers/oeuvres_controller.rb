@@ -3,6 +3,7 @@ class OeuvresController < ApplicationController
     @oeuvres = {
       abstraction: {
         title: "Abstraction",
+        style: "Huiles sur toiles",
         data: [
           {
             img: '../assets/57_Souvenir_dune_amie_tres_lointaine_81cmx65cm.JPG',
@@ -169,8 +170,8 @@ class OeuvresController < ApplicationController
             title: 'Archipel II',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/106_Detail_des_annees_90_81cmx65cm.JPG',
-            title: 'Détal des années 90',
+            img: '../assets/Vous_etes_bipolaire_81cmx65cm.jpg',
+            title: 'Vous êtes bipolaire',
             size: '81cm x 65cm'
           }, {
             img: '../assets/99_Algebre_Huile_sur_toile_81cmx65cm.JPG',
@@ -193,6 +194,7 @@ class OeuvresController < ApplicationController
       },
       lafrancequejaime: {
         title: "La France que j'aime",
+        style: "Huiles sur toiles",
         data: [
           {
             img: '../assets/4_Tonnerre_Le_petit_Logis_1mx1m.JPG',
@@ -319,6 +321,7 @@ class OeuvresController < ApplicationController
       },
       marine: {
         title: "Marine",
+        style: "Huiles sur toiles",
         data: [
           {
             img: '../assets/25_Trop_tard_81mx65cm.JPG',
@@ -341,6 +344,7 @@ class OeuvresController < ApplicationController
       },
       portrait: {
         title: "Portrait",
+        style: "Huiles sur toiles marouflées sur carton",
         data: [
           {
             img: '../assets/79_Seule_61cmx46cm.JPG',
@@ -367,8 +371,8 @@ class OeuvresController < ApplicationController
             title: "Laurent Ruquier",
             size: '61cm x 46cm'
           }, {
-            img: '../assets/jean_marie_messier.jpg',
-            title: 'Jean Marie Messier',
+            img: '../assets/xavier_niel.jpg',
+            title: 'Xavier Niel',
             size: '61cm x 46cm'
           }, {
             img: '../assets/Arnaud_Lagardere_60cmx46cm.jpg',

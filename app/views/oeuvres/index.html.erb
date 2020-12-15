@@ -1,7 +1,8 @@
 <% provide(:title, @collection[:title]) %>
 
 <div class="container-1">
-  <h2><%= @collection[:title] %></h2>
+  <h2 class="intelligent-h2"><%= @collection[:title] %></h2>
+  <p class="intelligent-p">(<%= @collection[:style] %>)</p>
   <% unless current_page?(oeuvres_collection_index_path('marine')) %>
     <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
       <ol class="carousel-indicators">
