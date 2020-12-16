@@ -412,23 +412,23 @@ class OeuvresController < ApplicationController
             size: '61cm x 50cm'
           }, {
             img: '../assets/Portrait_8_46cmx55cm.jpg',
-            title: 'Portrait 5',
+            title: 'Pélagie',
             size: '46cm x 36cm'
           }, {
             img: '../assets/Portrait_6_46cmx36cm.jpg',
-            title: 'Portrait 6',
+            title: 'Rachel',
             size: '46cm x 36cm'
           }, {
             img: '../assets/Portrait_7_46cmx36cm.jpg',
-            title: 'Portrait 7',
+            title: 'Madame Zouzou',
             size: '46cm x 36cm'
           }, {
             img: '../assets/Portrait_12_46cmx38cm.jpg',
-            title: 'Portrait 12',
+            title: 'Sidonie',
             size: '46cm x 38cm'
           }, {
             img: '../assets/Portrait_9_46cmx38cm.jpg',
-            title: 'Portrait 9',
+            title: 'Ernestine',
             size: '46cm x 38cm'
           }, {
             img: '../assets/Portrait_11_61cmx46cm.jpg',
@@ -440,11 +440,11 @@ class OeuvresController < ApplicationController
             size: '61cm x 46cm'
           }, {
             img: '../assets/portrait_13v2_46cmx38cm.jpg',
-            title: 'Portrait 13',
+            title: 'Anita 2',
             size: '46cm x 38cm'
           }, {
             img: '../assets/bernard_arnaud_61cmx48cm.jpg',
-            title: 'Bernard Arnaud',
+            title: 'Bernard Arnault',
             size: '61cm x 48cm'
           }
         ]
