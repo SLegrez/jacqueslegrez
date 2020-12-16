@@ -246,7 +246,7 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: '../assets/6_Tonnerre_Ete_1mx73cm.JPG',
-            title: 'Tonnerre - Éte',
+            title: 'Tonnerre - Été',
             size: '1m x 76cm'
           }, {
             img: '../assets/7_Tonnerre_Lumiere_dautomne_1mx73cm.JPG',
