@@ -1,8 +1,11 @@
 class Contact < MailForm::Base
-  attribute :name, validate: true, length: { minimum: 2 }
+  attribute :name
   attribute :email, validate: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
-  attribute :message, validate: true, length: { minimum: 10 }
+  attribute :message
   attribute :nickname, captcha: true
+
+  validates :name, length: { minimum: 2 }
+  validates :message, length: { minimum: 10 }
 
   def headers
     { subject: "Nouveau message",
