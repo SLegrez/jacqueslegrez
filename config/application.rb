@@ -10,6 +10,10 @@ module Jacqueslegrez
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
+    
+    config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
+    config.i18n.default_locale = :fr
+    I18n.available_locales = [:fr, :en]
 
     config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
