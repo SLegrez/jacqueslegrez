@@ -30,5 +30,19 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  home_text: <span class="beige">Jacques Legrez</span> lives in France
-  hello: "Hello world"
+  navbar_home: Home
+  navbar_works: Works
+  abstraction: Abstraction
+  france: France that I love
+  marine: Navy
+  portrait: Portrait
+  navbar_text: Art in question
+  navbar_contact: Contact
+  lartiste: The artist
+  home_text_html: "<span class='beige'>Jacques Legrez</span> vit et travaille en <span
+      class='beige'>Bourgogne</span>. Sa peinture convoque trois thèmes essentiels de l'art
+      pictural, l'abstraction contemporaine, le paysage, le portrait. Formé à l'école de la
+      peinture classique, celle des Primitifs Flamands, des peintres du Quattrocento et des
+      Maîtres Hollandais, son travail s'inscrit dans la démarche propre à tout créateur :
+      s'inspirer du réel et, dans la recherche d'un absolu provisoire, lever le voile sur un
+      horizon imaginaire."
