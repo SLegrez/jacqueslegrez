@@ -1,15 +1,11 @@
 <% if notice %>
-  <div class="flash flash-success alert alert-dismissible fade show" role="alert">
-    <span> 🎉 Merci pour votre message, je reviens vers vous très prochainement !</span>
-    <a data-dismiss="alert" aria-label="Close">
+  <div class="flash flash-success alert alert-dismissible fade show" role="alert"><%= (t :flash_notice_html) %><a data-dismiss="alert" aria-label="Close">
       <i class="fas fa-times"></i>
     </a>
   </div>
 <% end %>
 <% if alert %>
-  <div class="flash flash-danger alert alert-dismissible fade show" role="alert">
-    <span><strong>Oups !</strong> 😱 Votre message n'a pas pu être envoyé, veuillez vérifier les données saisies.</span>
-    <a data-dismiss="alert" aria-label="Close">
+  <div class="flash flash-danger alert alert-dismissible fade show" role="alert"><%= (t :flash_alert_html) %><a data-dismiss="alert" aria-label="Close">
       <i class="fas fa-times"></i>
     </a>
   </div>

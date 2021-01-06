@@ -5,15 +5,15 @@
   <%= simple_form_for Contact.new, url: contact_path, method: "post", html: { autocomplete: "off" } do |f| %>
 
     <div class="form-group">
-      <%= text_field_tag "contact[name]", nil, class: 'form-control form-credentials', placeholder: 'Prénom NOM' %>
+      <%= text_field_tag "contact[name]", nil, class: 'form-control form-credentials', placeholder: (t :form_name) %>
     </div>
     <div class="form-group">
       <%= text_field_tag "contact[email]", nil, class: 'form-control form-credentials', placeholder: 'Email' %>
     </div>
     <div class="form-group">
-      <%= text_area_tag "contact[message]", nil, class: 'form-control form-message', placeholder: 'Votre message', rows: '4' %>
+      <%= text_area_tag "contact[message]", nil, class: 'form-control form-message', placeholder: (t :form_message), rows: '4' %>
     </div>
-    <button type="submit" class="btn btn-primary btn-submit">Envoyer</button>
+    <button type="submit" class="btn btn-primary btn-submit"><%= (t :form_send) %></button>
 
   <% end %>
 </div>

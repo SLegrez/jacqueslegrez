@@ -1,0 +1,18 @@
+.footer {
+  height: 4em;
+  max-width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    color: wheat;
+    font-size: smaller;
+    font-style: italic;
+  }
+}
+#me {
+    color: wheat;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
