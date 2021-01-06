@@ -5,14 +5,29 @@
   margin: auto;
   justify-content: space-between;
   align-items: center;
-  p {
-    color: wheat;
-    font-size: smaller;
-    font-style: italic;
-  }
 }
 #me {
     color: wheat;
     border-bottom: 1px solid;
     text-decoration: none;
+}
+.trick, .hide {
+    color: wheat;
+    font-size: smaller;
+}
+.trick:hover .hide,
+.trick:hover ~ .hide {
+  visibility: visible;
+  opacity: 1; 
+}
+.hide {
+  font-style: italic;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+.hide:hover {
+  visibility: visible;
+  opacity: 1;
 }

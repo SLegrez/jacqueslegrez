@@ -30,7 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  stan: "This website was made by "
+  stan: "- this website was made by "
   navbar_home: Home
   navbar_works: Works
   abstraction: Abstraction
