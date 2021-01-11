@@ -30,82 +30,93 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  stan: "- this website was made by "
-  navbar_home: Home
-  navbar_works: Works
-  abstraction: Abstraction
-  france: France that I love
-  marine: Navy
-  portrait: Portrait
-  collection_style: Oils on canvas
-  collection_style2: Oils on canvas mounted on cardboard
-  navbar_text: Art in question
-  navbar_contact: Contact
-  lartiste: The artist
-  home_text_html: "<span class='beige'>Jacques Legrez</span> lives and work in <span
-      class='beige'>Bourgogne</span>. His painting brings together three essential themes of
-      pictorial art, contemporary abstraction, landscape and portrait. Trained in the school of
-      classical painting, that of the Flemish Primitives, the painters of the Quattrocento and
-      the Dutch Masters, his work is part of the specific approach to any creator : to be inspired
-      by reality and, in the search for a provisional absolute, lifting the veil on an imaginary
-      horizon."
-  form_name: Surname NAME
-  form_message: Your message
-  form_send: Send
-  flash_notice_html: "<span> 🎉 Thank you for your message, I will get back to you soon !</span>"
-  flash_alert_html: "<span><strong>Oops !</strong> 😱 Your message could not be sent, please
-  check the data entered.</span>"
-  art_text_html: "<p>
-    « <span class='beige'>To paint is to start by being silent.</span> And listen. Listen to
-    people, objects, silences, drafts. How to resist time and precariousness other than through
-    the creative act ? Have we invented anything more wonderful than the hand, this shell of
-    flesh, blood and love which collects emotion and which emotion on the canvas in a mind's eye?
-    In the early days of the <span class= 'beige'> creation </span>, they were a few to draw in
-    the middle of the night, with one hand trembling on the walls of a cave. To better ward off
-    bloody and miserable fate reserved for them, the free figure of an animal taken from life
-    became for them the embryo of a better life. This fiction laid the foundations for a world
-    devoid of all danger by only still fragile power of the imagination.
-  </p>
-  <p>
-    <img src='../assets/Papa_peint_2.jpg' class='img-float-left adapt' alt='tableau abstrait'> A
-    few thousand years later, it is the same men, a handful, who in the Plain of Marathon chose
-    to repel the invader and lived through the hell of death under axes and blades of barbarians.
-    The Acropolis hill, the Parthenon marbles, the circumference of the theater of Epidaurus
-    turned towards the sea, present in their flesh and blood, galvanized their forces. Came the
-    Renaissance. <span class= 'beige'> Botticelli </span> stared at the spring without the
-    slightest cloud obscuring the freshness of her composition despite the years. The <span class
-    = 'beige'> Caravaggio </span> shaped the day and night on the face of each of its characters.
-    He disappeared, keeping as a secret the perfection of all human form. The man whose hand
-    trembled in the dawn of time had not resigned himself. He continued his path on the path of
-    the imagination and got closer of the dream in the learning of the line and the material. His
-    daring fueled by his vision distinguished the beauty of the light to better associate them in
-    the coat of a <span class= 'beige'> work of art </span>, hoisting Western civilization at
-    arm's length. Such a torch, it distributed both worry and happiness and shone on the world.
-    Then came new men. They lined up miles of rails. Came the locomotives. Engines. Then the fog
-    of the locomotives, the noise of the engines. It had to set a standard. It was the straight
-    line. He had to be dressed. He was offered speed.
-  </p>
-  <p>
-    Mastering the <span class= 'beige'> speed </span>, chaining records mobilized all energies.
-    In the silence of laboratories and the labyrinth of experimental research, man reaped the
-    discoveries, unmasked the unknowns and lost his heart. Its vertically oriented telescope
-    opened up the darkness of space to him. The spirit of <span class= 'beige'> conquest </span>
-    was activated. No more hearing, touch, smell. Lost the smile and the tears. Dropped the
-    sweat, the sperm and the saliva. A polar cold was preparing to bury the honey of existence.
-    Take a detour became a waste of <span class= 'beige'> time </span>. The curve, this
-    oscillation of the line which suggests the shade was stored in the closet. Looking to see was
-    seen as a weakness. Linger, a anomaly. We had to act. And <span class= 'beige'> quickly
-    </span>. Following his instinct was seen as childish. To seek the soul of everything, a
-    resignation.
-  </p> 
-  <p>
-  <img src='../assets/Papa_peint.jpg' class='img-float-right adapt' alt='tableau
-    abstrait'> Today, <span class= 'beige'> who </span> would dare to take up arms for defend and
-    save the palace of Jacques Coeur in Bourges, the crusaders of the Holy Chapelle, the memory
-    of Arthur Rimbaud? <span class= 'beige'> Who </span> would accept risk his life for the
-    gardens of Le Nôtre, the walls of Chambord, the Loire Valley or Lunch on the Grassby Claude
-    Monet? <span class= 'beige'> Who </span> would agree to lose all credit to become what it has
-    always been? <span class= 'beige'> Who </span> would simply accept being himself in order to
-    exist? And if everything was needed restart ? Start by being silent. To fear. And in the
-    folds of a cold blue night of December, feel. And tremble. »
-  </p>"
+  navbar:
+    home: Home
+    works: Works
+    abstraction: Abstraction
+    france: France that I love
+    marine: Navy
+    portrait: Portrait
+    text: Art in question
+    contact: Contact
+
+  home:
+    text_html: "<span class='beige'>Jacques Legrez</span> lives and work in <span
+        class='beige'>Bourgogne</span>. His painting brings together three essential themes of
+        pictorial art, contemporary abstraction, landscape and portrait. Trained in the school of
+        classical painting, that of the Flemish Primitives, the painters of the Quattrocento and
+        the Dutch Masters, his work is part of the specific approach to any creator : to be inspired
+        by reality and, in the search for a provisional absolute, lifting the veil on an imaginary
+        horizon."
+    lartiste: The artist
+
+  collections:
+    style1: Oils on canvas
+    style2: Oils on canvas mounted on cardboard
+
+  contact:
+    form_name: Surname NAME
+    form_message: Your message
+    form_send: Send
+    flash_notice_html: "<span> 🎉 Thank you for your message, I will get back to you soon !</span>"
+    flash_alert_html: "<span><strong>Oops !</strong> 😱 Your message could not be sent, please
+    check the data entered.</span>"
+  
+  footer:
+    stan: "- this website was made by "
+
+  art_in_question:
+    text_html: "<p>
+      « <span class='beige'>To paint is to start by being silent.</span> And listen. Listen to
+      people, objects, silences, drafts. How to resist time and precariousness other than through
+      the creative act ? Have we invented anything more wonderful than the hand, this shell of
+      flesh, blood and love which collects emotion and which emotion on the canvas in a mind's eye?
+      In the early days of the <span class= 'beige'> creation </span>, they were a few to draw in
+      the middle of the night, with one hand trembling on the walls of a cave. To better ward off
+      bloody and miserable fate reserved for them, the free figure of an animal taken from life
+      became for them the embryo of a better life. This fiction laid the foundations for a world
+      devoid of all danger by only still fragile power of the imagination.
+    </p>
+    <p>
+      <img src='../assets/Papa_peint_2.jpg' class='img-float-left adapt' alt='tableau abstrait'> A
+      few thousand years later, it is the same men, a handful, who in the Plain of Marathon chose
+      to repel the invader and lived through the hell of death under axes and blades of barbarians.
+      The Acropolis hill, the Parthenon marbles, the circumference of the theater of Epidaurus
+      turned towards the sea, present in their flesh and blood, galvanized their forces. Came the
+      Renaissance. <span class= 'beige'> Botticelli </span> stared at the spring without the
+      slightest cloud obscuring the freshness of her composition despite the years. The <span class
+      = 'beige'> Caravaggio </span> shaped the day and night on the face of each of its characters.
+      He disappeared, keeping as a secret the perfection of all human form. The man whose hand
+      trembled in the dawn of time had not resigned himself. He continued his path on the path of
+      the imagination and got closer of the dream in the learning of the line and the material. His
+      daring fueled by his vision distinguished the beauty of the light to better associate them in
+      the coat of a <span class= 'beige'> work of art </span>, hoisting Western civilization at
+      arm's length. Such a torch, it distributed both worry and happiness and shone on the world.
+      Then came new men. They lined up miles of rails. Came the locomotives. Engines. Then the fog
+      of the locomotives, the noise of the engines. It had to set a standard. It was the straight
+      line. He had to be dressed. He was offered speed.
+    </p>
+    <p>
+      Mastering the <span class= 'beige'> speed </span>, chaining records mobilized all energies.
+      In the silence of laboratories and the labyrinth of experimental research, man reaped the
+      discoveries, unmasked the unknowns and lost his heart. Its vertically oriented telescope
+      opened up the darkness of space to him. The spirit of <span class= 'beige'> conquest </span>
+      was activated. No more hearing, touch, smell. Lost the smile and the tears. Dropped the
+      sweat, the sperm and the saliva. A polar cold was preparing to bury the honey of existence.
+      Take a detour became a waste of <span class= 'beige'> time </span>. The curve, this
+      oscillation of the line which suggests the shade was stored in the closet. Looking to see was
+      seen as a weakness. Linger, a anomaly. We had to act. And <span class= 'beige'> quickly
+      </span>. Following his instinct was seen as childish. To seek the soul of everything, a
+      resignation.
+    </p> 
+    <p>
+    <img src='../assets/Papa_peint.jpg' class='img-float-right adapt' alt='tableau
+      abstrait'> Today, <span class= 'beige'> who </span> would dare to take up arms for defend and
+      save the palace of Jacques Coeur in Bourges, the crusaders of the Holy Chapelle, the memory
+      of Arthur Rimbaud? <span class= 'beige'> Who </span> would accept risk his life for the
+      gardens of Le Nôtre, the walls of Chambord, the Loire Valley or Lunch on the Grassby Claude
+      Monet? <span class= 'beige'> Who </span> would agree to lose all credit to become what it has
+      always been? <span class= 'beige'> Who </span> would simply accept being himself in order to
+      exist? And if everything was needed restart ? Start by being silent. To fear. And in the
+      folds of a cold blue night of December, feel. And tremble. »
+    </p>"

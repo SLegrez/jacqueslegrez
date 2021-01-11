@@ -2,8 +2,8 @@ class OeuvresController < ApplicationController
   def index
     @oeuvres = {
       abstraction: {
-        title: (t :abstraction),
-        style: (t :collection_style),
+        title: (t 'navbar.abstraction'),
+        style: (t 'collections.style1'),
         data: [
           {
             img: '../assets/57_Souvenir_dune_amie_tres_lointaine_81cmx65cm.JPG',
@@ -193,8 +193,8 @@ class OeuvresController < ApplicationController
         ]
       },
       lafrancequejaime: {
-        title: (t :france),
-        style: (t :collection_style),
+        title: (t 'navbar.france'),
+        style: (t 'collections.style1'),
         data: [
           {
             img: '../assets/4_Tonnerre_Le_petit_Logis_1mx1m.JPG',
@@ -320,8 +320,8 @@ class OeuvresController < ApplicationController
         ]
       },
       marine: {
-        title: (t :marine),
-        style: (t :collection_style),
+        title: (t 'navbar.marine'),
+        style: (t 'collections.style1'),
         data: [
           {
             img: '../assets/25_Trop_tard_81mx65cm.JPG',
@@ -343,8 +343,8 @@ class OeuvresController < ApplicationController
         ]
       },
       portrait: {
-        title: (t :portrait),
-        style: (t :collection_style2),
+        title: (t 'navbar.portrait'),
+        style: (t 'collections.style2'),
         data: [
           {
             img: '../assets/79_Seule_61cmx46cm.JPG',

@@ -1,15 +1,15 @@
 <div class="navbar-top">
   <ul>
-    <li><%= link_to (t :navbar_home), root_path %></li>
-    <li class="dropdown middle width7"><%= link_to (t :navbar_works), oeuvres_collection_index_path('abstraction') %>
+    <li><%= link_to (t 'navbar.home'), root_path %></li>
+    <li class="dropdown middle width7"><%= link_to (t 'navbar.works'), oeuvres_collection_index_path('abstraction') %>
       <ul class="under">
-        <li><%= link_to (t :abstraction), oeuvres_collection_index_path('abstraction') %></li>
-        <li><%= link_to (t :france), oeuvres_collection_index_path('lafrancequejaime') %></li>
-        <li><%= link_to (t :marine), oeuvres_collection_index_path('marine') %></li>
-        <li><%= link_to (t :portrait), oeuvres_collection_index_path('portrait') %></li>
+        <li><%= link_to (t 'navbar.abstraction'), oeuvres_collection_index_path('abstraction') %></li>
+        <li><%= link_to (t 'navbar.france'), oeuvres_collection_index_path('lafrancequejaime') %></li>
+        <li><%= link_to (t 'navbar.marine'), oeuvres_collection_index_path('marine') %></li>
+        <li><%= link_to (t 'navbar.portrait'), oeuvres_collection_index_path('portrait') %></li>
       </ul>
     </li>
-    <li class="flex-align-center"><%= link_to (t :navbar_text), lart_en_question_path %></li>
-    <li class="right"><%= link_to (t :navbar_contact), contact_path %></li>
+    <li class="flex-align-center"><%= link_to (t 'navbar.text'), lart_en_question_path %></li>
+    <li class="right"><%= link_to (t 'navbar.contact'), contact_path %></li>
   </ul>
 </div>
