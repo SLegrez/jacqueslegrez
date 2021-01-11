@@ -32,7 +32,7 @@ fr:
     veuillez vérifier les données saisies.</span>"
   
   footer:
-    stan: "- ce site a été créé par "
+    stan: "- ce site a été réalisé par "
   
   art_in_question:
     text_html: "<p>
@@ -80,8 +80,9 @@ fr:
       Chercher l'âme de toute chose, une démission.
     </p> 
     <p>
-    <img src='../assets/Papa_peint.jpg' class='img-float-right adapt' alt='tableau
-      abstrait'> Aujourd'hui, <span class='beige'>qui</span> oserait prendre les armes pour
+      <img src='../assets/Papa_peint.jpg' class='img-float-right adapt' alt='tableau
+      abstrait'>
+      Aujourd'hui, <span class='beige'>qui</span> oserait prendre les armes pour
       défendre et sauver le palais de Jacques Cœur à Bourges, les croisés d'ogives de la Sainte
       Chapelle, la mémoire d'Arthur Rimbaud ? <span class='beige'>Qui</span> acccepterait de
       risquer sa vie pour les jardins de Le Nôtre, les murs de Chambord, la vallée de la Loire ou
