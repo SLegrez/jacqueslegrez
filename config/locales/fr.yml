@@ -34,7 +34,7 @@ fr:
   footer:
     stan: "- ce site a été créé par "
   
-    art_in_question:
+  art_in_question:
     text_html: "<p>
       « <span class='beige'>Peindre, c'est commencer par se taire.</span> Et écouter. Ecouter les
       gens, les objets, les silences, les courants d'air. Comment résister au temps et à la
