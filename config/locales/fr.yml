@@ -47,26 +47,31 @@ fr:
       d'une vie meilleure. Cette fiction jetait les bases d'un monde vierge de tout danger par le
       seul pouvoir encore fragile de l'imagination.
     </p>
-    <p>
-      <img src='../assets/Papa_peint_2.jpg' class='img-float-left adapt' alt='tableau abstrait'>
-      Quelques milliers d'années plus tard, ce sont les mêmes hommes, une poignée, qui dans la
-      plaine de Marathon choisirent de repousser l'envahisseur et vécurent l'enfer de la mort sous
-      les haches et les lames des barbares. La colline  de l'Acropole, les marbres du Parthenon, la
-      circonférence du théâtre d'Epidaure tourné vers la mer, présents dans leur chair et leur
-      sang, galvanisaient leurs forces. Vint la Renaissance. <span class='beige'>Botticelli</span>
-      fixa le printemps sans que le moindre nuage ne vienne assombrir la fraîcheur de sa
-      composition malgré les années. Le <span class='beige'>Caravage</span> modela le jour et la
-      nuit sur le visage de chacun de ses personnages. Il disparut, conservant comme un secret la
-      perfection de toute forme humaine. L'homme dont la main tremblait dans la nuit des temps ne
-      s'était pas résigné. Il poursuivait son chemin sur la voie de l'imaginaire et se rapprochait
-      du rêve dans l'apprentissage de la ligne et de la matière. Son audace nourrie par sa vision
-      distinguait la beauté de la lumière pour mieux les associer dans le manteau d'une <span
-      class='beige'>oeuvre d'art</span>, hissant la civilisation occidentale à bout de bras. Tel un
-      flambeau, celle-ci distribuait à la fois l'inquiétude et le bonheur et rayonnait sur le
-      monde. Puis vinrent des hommes nouveaux. Ils alignerent des kilomètres de rails. Vinrent les
-      locomotives. Les moteurs. Puis le brouillard des locomotives, le bruit des moteurs. Il fallut
-      établir une norme. Ce fut la ligne droite. Il fallut l'habiller. On lui offrit la vitesse.
-    </p>
+    <div class='picntext'>
+      <img src='../assets/Papa_peint_2.jpg' class='img-float-left adapt nexto' alt='tableau
+      abstrait'>
+      <p>
+        Quelques milliers d'années plus tard, ce sont les mêmes hommes, une poignée, qui dans la
+        plaine de Marathon choisirent de repousser l'envahisseur et vécurent l'enfer de la mort
+        sous les haches et les lames des barbares. La colline  de l'Acropole, les marbres du
+        Parthenon, la circonférence du théâtre d'Epidaure tourné vers la mer, présents dans leur
+        chair et leur sang, galvanisaient leurs forces. Vint la Renaissance. <span
+        class='beige'>Botticelli</span> fixa le printemps sans que le moindre nuage ne vienne
+        assombrir la fraîcheur de sa composition malgré les années. Le <span
+        class='beige'>Caravage</span> modela le jour et la nuit sur le visage de chacun de ses
+        personnages. Il disparut, conservant comme un secret la perfection de toute forme
+        humaine. L'homme dont la main tremblait dans la nuit des temps ne s'était pas résigné. Il
+        poursuivait son chemin sur la voie de l'imaginaire et se rapprochait du rêve dans
+        l'apprentissage de la ligne et de la matière. Son audace nourrie par sa vision
+        distinguait la beauté de la lumière pour mieux les associer dans le manteau d'une <span
+        class='beige'>oeuvre d'art</span>, hissant la civilisation occidentale à bout de bras.
+        Tel un flambeau, celle-ci distribuait à la fois l'inquiétude et le bonheur et rayonnait
+        sur le monde. Puis vinrent des hommes nouveaux. Ils alignerent des kilomètres de rails.
+        Vinrent les locomotives. Les moteurs. Puis le brouillard des locomotives, le bruit des
+        moteurs. Il fallut établir une norme. Ce fut la ligne droite. Il fallut l'habiller. On
+        lui offrit la vitesse.
+      </p>
+    </div>
     <p>
       Maitriser la <span class='beige'>vitesse</span>, enchaîner les records mobilisa toutes les énergies. Dans le silence des
       laboratoires et le labyrinthe de la recherche expérimentale, l'homme moissonna les
@@ -79,16 +84,18 @@ fr:
       anomalie. Il fallait agir. Et <span class='beige'>vite</span>. Suivre son instinct fut perçu comme un enfantillage.
       Chercher l'âme de toute chose, une démission.
     </p> 
-    <p>
-      <img src='../assets/Papa_peint.jpg' class='img-float-right adapt' alt='tableau
+    <div class='picntext'>
+      <p>
+        Aujourd'hui, <span class='beige'>qui</span> oserait prendre les armes pour
+        défendre et sauver le palais de Jacques Cœur à Bourges, les croisés d'ogives de la Sainte
+        Chapelle, la mémoire d'Arthur Rimbaud ? <span class='beige'>Qui</span> acccepterait de
+        risquer sa vie pour les jardins de Le Nôtre, les murs de Chambord, la vallée de la Loire ou
+        le Déjeuner sur l'herbe de Claude Monet ? <span class='beige'>Qui</span> accepterait de
+        perdre tout crédit pour redevenir ce qu'il a toujours été ? <span class='beige'>Qui</span>
+        accepterait d'être tout simplement lui-même pour exister ? Et s'il fallait au fond tout
+        recommencer ? Commencer par se taire. Avoir peur. Et dans les plis d'une nuit bleue et froide
+        de décembre, ressentir. Et trembler. »
+      </p>
+      <img src='../assets/Papa_peint.jpg' class='img-float-right adapt nexto' alt='tableau
       abstrait'>
-      Aujourd'hui, <span class='beige'>qui</span> oserait prendre les armes pour
-      défendre et sauver le palais de Jacques Cœur à Bourges, les croisés d'ogives de la Sainte
-      Chapelle, la mémoire d'Arthur Rimbaud ? <span class='beige'>Qui</span> acccepterait de
-      risquer sa vie pour les jardins de Le Nôtre, les murs de Chambord, la vallée de la Loire ou
-      le Déjeuner sur l'herbe de Claude Monet ? <span class='beige'>Qui</span> accepterait de
-      perdre tout crédit pour redevenir ce qu'il a toujours été ? <span class='beige'>Qui</span>
-      accepterait d'être tout simplement lui-même pour exister ? Et s'il fallait au fond tout
-      recommencer ? Commencer par se taire. Avoir peur. Et dans les plis d'une nuit bleue et froide
-      de décembre, ressentir. Et trembler. »
-    </p>"
+    </div>"

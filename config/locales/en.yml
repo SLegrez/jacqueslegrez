@@ -77,25 +77,29 @@ en:
       became for them the embryo of a better life. This fiction laid the foundations for a world
       devoid of all danger by only still fragile power of the imagination.
     </p>
-    <p>
-      <img src='../assets/Papa_peint_2.jpg' class='img-float-left adapt' alt='tableau abstrait'> A
-      few thousand years later, it is the same men, a handful, who in the Plain of Marathon chose
-      to repel the invader and lived through the hell of death under axes and blades of barbarians.
-      The Acropolis hill, the Parthenon marbles, the circumference of the theater of Epidaurus
-      turned towards the sea, present in their flesh and blood, galvanized their forces. Came the
-      Renaissance. <span class= 'beige'> Botticelli </span> stared at the spring without the
-      slightest cloud obscuring the freshness of her composition despite the years. The <span class
-      = 'beige'> Caravaggio </span> shaped the day and night on the face of each of its characters.
-      He disappeared, keeping as a secret the perfection of all human form. The man whose hand
-      trembled in the dawn of time had not resigned himself. He continued his path on the path of
-      the imagination and got closer of the dream in the learning of the line and the material. His
-      daring fueled by his vision distinguished the beauty of the light to better associate them in
-      the coat of a <span class= 'beige'> work of art </span>, hoisting Western civilization at
-      arm's length. Such a torch, it distributed both worry and happiness and shone on the world.
-      Then came new men. They lined up miles of rails. Came the locomotives. Engines. Then the fog
-      of the locomotives, the noise of the engines. It had to set a standard. It was the straight
-      line. He had to be dressed. He was offered speed.
-    </p>
+    <div class='picntext'>
+      <img src='../assets/Papa_peint_2.jpg' class='img-float-left adapt nexto' alt='tableau
+      abstrait'>
+      <p>
+        A few thousand years later, it is the same men, a handful, who in the Plain of Marathon
+        chose to repel the invader and lived through the hell of death under axes and blades of
+        barbarians. The Acropolis hill, the Parthenon marbles, the circumference of the theater
+        of Epidaurus turned towards the sea, present in their flesh and blood, galvanized their
+        forces. Came the Renaissance. <span class= 'beige'> Botticelli </span> stared at the
+        spring without the slightest cloud obscuring the freshness of her composition despite the
+        years. The <span class = 'beige'> Caravaggio </span> shaped the day and night on the face
+        of each of its characters. He disappeared, keeping as a secret the perfection of all
+        human form. The man whose hand trembled in the dawn of time had not resigned himself. He
+        continued his path on the path of the imagination and got closer of the dream in the
+        learning of the line and the material. His daring fueled by his vision distinguished the
+        beauty of the light to better associate them in the coat of a <span class= 'beige'> work
+        of art </span>, hoisting Western civilization at arm's length. Such a torch, it
+        distributed both worry and happiness and shone on the world. Then came new men. They
+        lined up miles of rails. Came the locomotives. Engines. Then the fog of the locomotives,
+        the noise of the engines. It had to set a standard. It was the straight line. He had to
+        be dressed. He was offered speed.
+      </p>
+    </div>
     <p>
       Mastering the <span class= 'beige'> speed </span>, chaining records mobilized all energies.
       In the silence of laboratories and the labyrinth of experimental research, man reaped the
@@ -109,14 +113,17 @@ en:
       </span>. Following his instinct was seen as childish. To seek the soul of everything, a
       resignation.
     </p> 
-    <p>
-    <img src='../assets/Papa_peint.jpg' class='img-float-right adapt' alt='tableau
-      abstrait'> Today, <span class= 'beige'> who </span> would dare to take up arms for defend and
-      save the palace of Jacques Coeur in Bourges, the crusaders of the Holy Chapelle, the memory
-      of Arthur Rimbaud? <span class= 'beige'> Who </span> would accept risk his life for the
-      gardens of Le Nôtre, the walls of Chambord, the Loire Valley or Lunch on the Grassby Claude
-      Monet? <span class= 'beige'> Who </span> would agree to lose all credit to become what it has
-      always been? <span class= 'beige'> Who </span> would simply accept being himself in order to
-      exist? And if everything was needed restart ? Start by being silent. To fear. And in the
-      folds of a cold blue night of December, feel. And tremble. »
-    </p>"
+    <div class='picntext'>
+      <p>
+        Today, <span class= 'beige'> who </span> would dare to take up arms for defend and
+        save the palace of Jacques Coeur in Bourges, the crusaders of the Holy Chapelle, the memory
+        of Arthur Rimbaud? <span class= 'beige'> Who </span> would accept risk his life for the
+        gardens of Le Nôtre, the walls of Chambord, the Loire Valley or Lunch on the Grassby Claude
+        Monet? <span class= 'beige'> Who </span> would agree to lose all credit to become what it has
+        always been? <span class= 'beige'> Who </span> would simply accept being himself in order to
+        exist? And if everything was needed restart ? Start by being silent. To fear. And in the
+        folds of a cold blue night of December, feel. And tremble. »
+      </p>
+      <img src='../assets/Papa_peint.jpg' class='img-float-right adapt nexto' alt='tableau
+        abstrait'>
+    </div>"
