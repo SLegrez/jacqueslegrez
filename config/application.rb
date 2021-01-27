@@ -14,7 +14,7 @@ module Jacqueslegrez
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
     config.i18n.default_locale = :fr
     I18n.available_locales = [:fr, :en]
-    config.i18n.fallbacks = [:fr]
+    config.i18n.fallbacks = [:en]
 
     config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
