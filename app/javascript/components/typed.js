@@ -8,7 +8,7 @@ const loadDynamicBannerText = () => {
       loop: true,
       backSpeed: 50
     })
-  } else {
+  } else if (document.getElementById('banner-typed-text-en')) {
     new Typed('#banner-typed-text-en', {
       strings: ["« Look to see »"],
       typeSpeed: 50,
