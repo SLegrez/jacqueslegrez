@@ -273,7 +273,7 @@ class OeuvresController < ApplicationController
             title: 'Joigny 3',
             size: '1m x 1m'
           }, {
-            img: '../assets/Joigny_4_81cmx65cm.jpg',
+            img: '../assets/joigny-4-bis.jpg',
             title: 'Joigny 4',
             size:'81cm x 65cm'
           }, {
