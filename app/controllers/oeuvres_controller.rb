@@ -313,7 +313,7 @@ class OeuvresController < ApplicationController
             title: 'Montluçon',
             size:'2m10 x 80cm'
           }, {
-            img: '../assets/aucune_idee.jpg',
+            img: '../assets/le_pont_de_joigny.jpg',
             title: "Le pont de Joigny",
             size: '1m90 x 80cm'
           }
