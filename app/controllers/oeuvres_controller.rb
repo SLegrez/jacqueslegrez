@@ -14,7 +14,7 @@ class OeuvresController < ApplicationController
             title: 'Itinéraire',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/108_Dernier_jour_a_Epidaure_81cmx65cm.JPG',
+            img: '../assets/dernier_jour_a_epidaure_81x65cm.jpg',
             title: 'Fin Avril',
             size: '81cm x 65cm'
           }, {
