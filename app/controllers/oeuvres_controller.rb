@@ -123,7 +123,7 @@ class OeuvresController < ApplicationController
             size: '1m x 1m'
           },
           
-          # ---------- End of the 2nd 3x3 grid ---------- #
+          # ---------- End of the 2nd 3x3 grid ---------- # 
 
           {
             img: '../assets/karthoum.bazar@.com.jpg',
