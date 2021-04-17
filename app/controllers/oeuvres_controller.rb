@@ -54,7 +54,7 @@ class OeuvresController < ApplicationController
             title: 'Efficience',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/39_Jurisprudence_81cmx65cm.JPG',
+            img: '../assets/metro_chardon_lagache_81x65cm.jpg',
             title: 'Métro Chardon-Lagache',
             size: '81cm x 65cm'
           }, {
@@ -419,8 +419,8 @@ class OeuvresController < ApplicationController
             title: 'Rachel',
             size: '46cm x 36cm'
           }, {
-            img: '../assets/Portrait_7_46cmx36cm.jpg',
-            title: 'Madame Zouzou',
+            img: '../assets/catherine_61cmx50cm.jpg',
+            title: 'Catherine',
             size: '46cm x 36cm'
           }, {
             img: '../assets/Portrait_12_46cmx38cm.jpg',
