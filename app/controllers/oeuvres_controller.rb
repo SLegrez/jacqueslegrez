@@ -203,7 +203,7 @@ class OeuvresController < ApplicationController
           }, {
             img: '../assets/2_Tonnerre_Eglise_Saint_Pierre_Eglise_Saint_Jean_1mx1m.JPG',
             title: 'Tonnerre - Église Saint Pierre, église Saint Jean',
-            size: '1m x 1m',
+            size: 'VENDU',
           }, {
             img: '../assets/Joigny_pont_1.jpg',
             title: 'Joigny',
