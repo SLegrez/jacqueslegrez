@@ -170,8 +170,8 @@ class OeuvresController < ApplicationController
             title: 'Archipel II',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/Vous_etes_bipolaire_81cmx65cm.jpg',
-            title: 'Vous êtes bipolaire',
+            img: '../assets/121061539_371310894053328_3040811368103126819_n.jpg',
+            title: 'Plateau tactile',
             size: '81cm x 65cm'
           }, {
             img: '../assets/99_Algebre_Huile_sur_toile_81cmx65cm.JPG',
@@ -351,8 +351,8 @@ class OeuvresController < ApplicationController
             title: 'Seule',
             size: '46cm x 38cm'
           }, {
-            img: '../assets/80_Guillaume_Durand_61cmx46cm.JPG',
-            title: 'Guillaume Durand',
+            img: '../assets/vincent_61cmx46cm.jpg',
+            title: 'Vincent',
             size: '61cm x 46cm'
           }, {
             img: '../assets/82_Thierry_Ardisson_61cmx46cm.JPG',
@@ -439,8 +439,8 @@ class OeuvresController < ApplicationController
             title: 'Jacques Attali',
             size: '61cm x 46cm'
           }, {
-            img: '../assets/portrait_13v2_46cmx38cm.jpg',
-            title: 'Anita 2',
+            img: '../assets/jeune_fille_60cmx50cm.jpg',
+            title: 'Jeune fille',
             size: '46cm x 38cm'
           }, {
             img: '../assets/bernard_arnaud_61cmx48cm.jpg',
