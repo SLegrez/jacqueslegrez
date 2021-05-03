@@ -170,7 +170,7 @@ class OeuvresController < ApplicationController
             title: 'Archipel II',
             size: '81cm x 65cm'
           }, {
-            img: '../assets/121061539_371310894053328_3040811368103126819_n.jpg',
+            img: '../assets/plateau_tactile_81cmx65cm.jpg',
             title: 'Plateau tactile',
             size: '81cm x 65cm'
           }, {
