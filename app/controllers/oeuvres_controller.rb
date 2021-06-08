@@ -371,12 +371,12 @@ class OeuvresController < ApplicationController
             title: "Laurent Ruquier",
             size: '61cm x 46cm'
           }, {
-            img: '../assets/xavier_niel.jpg',
-            title: 'Xavier Niel',
+            img: '../assets/qui_suis_je_61x46cm.jpg',
+            title: 'Qui suis-je ?',
             size: '61cm x 46cm'
           }, {
-            img: '../assets/Arnaud_Lagardere_60cmx46cm.jpg',
-            title: 'Arnaud Lagardère',
+            img: '../assets/le_philosphe_61x50cm.jpg',
+            title: 'Le philosophe',
             size: '61cm x 50cm'
           }, {
             img: '../assets/Portrait_61cmx46cm.jpg',
