@@ -39,6 +39,7 @@ en:
     portrait: Portrait
     text: Art in question
     contact: Contact
+    liste_de_prix_: Prices
 
   home:
     text_html: "<span class='beige'>Jacques Legrez</span> lives and work in <span
@@ -54,6 +55,10 @@ en:
   collections:
     style1: Oils on canvas
     style2: Oils on canvas mounted on cardboard
+
+  liste_de_prix:
+    titre: Prices
+    euro: (in euros)
 
   contact:
     form_name: Surname NAME

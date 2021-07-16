@@ -36,8 +36,14 @@
     width: 100%;
   }
 }
+.color-wheat {
+  color: wheat;
+}
 .carousel-control-prev-icon, .carousel-control-next-icon {
   margin-bottom: 4em !important;
+}
+.d-grid {
+  display: grid;
 }
 .intelligent-h2 {
   padding-bottom: 0em;
@@ -52,6 +58,9 @@
 .img-transition:hover {
   opacity: 0.5;
   z-index: 1;
+}
+.large {
+  font-size: large;
 }
 .modal-content {
   color: white;
@@ -69,12 +78,14 @@
 .modal-backdrop {
   opacity:0.8 !important;
 }
+.nombre {
+  font-size: small;
+}
 .content-img {
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 .content-img div{
   position: absolute;

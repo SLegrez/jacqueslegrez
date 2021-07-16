@@ -8,6 +8,7 @@ fr:
     portrait: Portrait
     text: L'art en question
     contact: Contact
+    liste_de_prix_: Liste de prix
 
   home:
     text_html: "<span class='beige'>Jacques Legrez</span> vit et travaille en <span
@@ -23,6 +24,10 @@ fr:
   collections:
     style1: Huiles sur toiles
     style2: Huiles sur toiles marouflées sur carton
+
+  liste_de_prix:
+    titre: Liste de prix
+    euro: (en euros)
 
   contact:
     form_name: Prénom NOM

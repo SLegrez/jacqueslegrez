@@ -7,4 +7,8 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def liste_de_prix
+  end
+  
 end
