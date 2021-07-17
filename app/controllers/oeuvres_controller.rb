@@ -163,7 +163,7 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: "../assets/66_Eloignement_81cmx65cm.JPG",
-            title: 'Si loin de toi',
+            title: 'Si loin de toi, si loin de moi',
             size: '81cm x 65cm'
           }, {
             img: "../assets/49_Archipel_II_81cmx65cm.JPG",
@@ -246,7 +246,7 @@ class OeuvresController < ApplicationController
             size: '81cm x 65cm'
           }, {
             img: "../assets/6_Tonnerre_Ete_1mx73cm.JPG",
-            title: 'Tonnerre - Été',
+            title: 'Tonnerre',
             size: '1m x 76cm'
           }, {
             img: "../assets/7_Tonnerre_Lumiere_dautomne_1mx73cm.JPG",
