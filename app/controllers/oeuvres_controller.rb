@@ -241,9 +241,9 @@ class OeuvresController < ApplicationController
             title: 'Montluçon',
             size: '81cm x 65cm'
           }, {
-            img: "../assets/5_Tonnerre_Eglise_Saint_Pierre_81cmx65cm.JPG",
-            title: 'Tonnerre - Église Saint Pierre',
-            size: '81cm x 65cm'
+            img: "../assets/rencontre_81cmx60cm.jpg",
+            title: 'Rencontre',
+            size: '81cm x 60cm'
           }, {
             img: "../assets/6_Tonnerre_Ete_1mx73cm.JPG",
             title: 'Tonnerre',
@@ -328,7 +328,7 @@ class OeuvresController < ApplicationController
             title: 'Trop tard',
             size: '81cm x 65cm'
           }, {
-            img: "../assets/Marine_1m90mx80cm.jpg",
+            img: "../assets/punta_cana_1m90mx80cm.jpg",
             title: 'Punta Cana',
             size: '1m90 x 80cm'
           }, {
